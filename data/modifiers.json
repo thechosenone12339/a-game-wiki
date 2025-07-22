@@ -1259,9 +1259,979 @@
   },
 
 
+  {
+    "id": "weapon4_exotic_1",
+    "name": "伏打电池",
+    "description": "换弹时抛出的空弹匣会造成一次电击爆炸。射击被丢弃的弹匣可触发第二次、更大范围的爆炸。抛出时剩余弹药越少，爆炸威力越强。",
+    "value": "伤害：30.43；爆炸范围：3.4；二次爆炸范围：9.88；换弹速度：-17%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_exotic_1.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_exotic_1_shape.png"
+  },
+  {
+    "id": "weapon4_exotic_2",
+    "name": "弧形闪电",
+    "description": "使用激光伤害一个目标时，有概率对附近敌人弹射一道电击闪电。",
+    "value": "概率：55%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_exotic_2.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_exotic_2_shape.png"
+  },
+  {
+    "id": "weapon4_exotic_3",
+    "name": "热切换",
+    "description": "使用激光造成伤激光成为默认模式。害会为更强大的DMR模式生成弹药。",
+    "value": "激光伤害：-47%；激光命中充能：0；激光充能消耗：-27%；激光转化弹药：+0.04；射速：-25%；伤害：+156%；弹药消耗：+1；弹匣容量：-50%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_exotic_3.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_exotic_3_shape.png"
+  },
+  {
+    "id": "weapon4_exotic_4",
+    "name": "自动循环器",
+    "description": "DMLR会按给定间隔自动在DMR和激光模式间切换，且激光拥有无限充能。使用DMR造成伤害会增加激光伤害，使用激光造成伤害会增加DMR伤害。",
+    "value": "切换间隔：2.96；每层伤害：+10%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_exotic_4.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_exotic_4_shape.png"
+  },
+  {
+    "id": "weapon4_epic_1",
+    "name": "光子涌动",
+    "description": "发射激光期间移速加快。",
+    "value": "速度：+5.54",
+    "icon": "images/modifier/weapon/weapon4/weapon4_epic_1.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_epic_1_shape.png"
+  },
+  {
+    "id": "weapon4_epic_2",
+    "name": "危险循环",
+    "description": "当指定元素完全施加到你身上时，可获得激光充能。",
+    "value": "充能：8.97；元素：火焰/强酸/电击",
+    "icon": "images/modifier/weapon/weapon4/weapon4_epic_2.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_epic_2_shape.png"
+  },
+  {
+    "id": "weapon4_epic_3",
+    "name": "双向充能",
+    "description": "使用激光造成伤害时可自动恢复你弹匣内的子弹。",
+    "value": "激光转化弹药：+0.53",
+    "icon": "images/modifier/weapon/weapon4/weapon4_epic_3.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_epic_3_shape.png"
+  },
+  {
+    "id": "weapon4_epic_4",
+    "name": "工程纳米机器人",
+    "description": "激光可治疗友方单位。",
+    "value": "治疗：92.0%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_epic_4.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_epic_4_shape.png"
+  },
+  {
+    "id": "weapon4_epic_5",
+    "name": "杂耍技巧",
+    "description": "当装备伏打电池时，可在空弹匣换弹过程中通过切换武器取消动作，立即再次投掷电池，但后续伤害递减。",
+    "value": "每次投掷效能：-33%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_epic_5.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_epic_5_shape.png"
+  },
+  {
+    "id": "weapon4_epic_6",
+    "name": "过载循环",
+    "description": "消灭一个目标有概率返还DMR弹药。",
+    "value": "概率：46.0%；弹药返还量：3",
+    "icon": "images/modifier/weapon/weapon4/weapon4_epic_6.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_epic_6_shape.png"
+  },
+  {
+    "id": "weapon4_rare_1",
+    "name": "三连击",
+    "description": "以三连发形式射击。",
+    "value": "连发子弹数：+3；连发间隔：0.18；射速：+225%；伤害：-48%；元素：-60%；弹匣容量：+1；垂直后坐力：-25%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_1.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_1_shape.png"
+  },
+  {
+    "id": "weapon4_rare_2",
+    "name": "三重",
+    "description": "每第三发子弹会施加指定元素。",
+    "value": "施加火焰/强酸/电击；效果量：8.37",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_2.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_2_shape.png"
+  },
+  {
+    "id": "weapon4_rare_3",
+    "name": "动能悬停",
+    "description": "发射激光期间保持悬停。",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_3.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_3_shape.png"
+  },
+  {
+    "id": "weapon4_rare_4",
+    "name": "坚光穿透",
+    "description": "激光可穿透护盾。",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_4.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_4_shape.png"
+  },
+  {
+    "id": "weapon4_rare_5",
+    "name": "快速充能",
+    "description": "造成伤害会生成更多激光充能，但容量减少。",
+    "value": "激光充能上限：-60%；激光命中充能：+132%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_5.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_5_shape.png"
+  },
+  {
+    "id": "weapon4_rare_6",
+    "name": "撕裂者",
+    "description": "增加对肢体造成的伤害，但降低对外壳造成的伤害。",
+    "value": "肢体伤害：+42%；外壳伤害：-21%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_6.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_6_shape.png"
+  },
+  {
+    "id": "weapon4_rare_7",
+    "name": "日冕喷发",
+    "description": "激光伤害大幅提升，但能量消耗加快。必须完全充能后才能发射。",
+    "value": "激光伤害：+285%；激光充能消耗：+291%；最小激光充能：100.0%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_7.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_7_shape.png"
+  },
+  {
+    "id": "weapon4_rare_8",
+    "name": "污染排放",
+    "description": "电池耗尽时会释放一次元素爆炸。",
+    "value": "范围：4.5；施加火焰/强酸/电击",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_8.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_8_shape.png"
+  },
+  {
+    "id": "weapon4_rare_9",
+    "name": "燃烧激光",
+    "description": "激光造成火焰伤害。",
+    "value": "激光元素：+10.87",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_9.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_9_shape.png"
+  },
+  {
+    "id": "weapon4_rare_10",
+    "name": "电击激光",
+    "description": "激光造成电击伤害。",
+    "value": "激光元素：+10.76",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_10.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_10_shape.png"
+  },
+  {
+    "id": "weapon4_rare_11",
+    "name": "稳固",
+    "description": "发射激光时，你无法移动并获得伤害抗性。激光伤害增加。",
+    "value": "伤害抗性：30.0%；激光伤害：+30%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_11.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_11_shape.png"
+  },
+  {
+    "id": "weapon4_rare_12",
+    "name": "能量核心",
+    "description": "使用激光击杀核心会返还部分充能。",
+    "value": "充能：+4.91",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_12.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_12_shape.png"
+  },
+  {
+    "id": "weapon4_rare_13",
+    "name": "辅助充能",
+    "description": "用激光治疗队友时可获得部分充能。",
+    "value": "充能治疗：+104%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_13.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_13_shape.png"
+  },
+  {
+    "id": "weapon4_rare_14",
+    "name": "酸蚀激光",
+    "description": "激光造成强酸伤害。",
+    "value": "激光元素：+10.73",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_14.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_14_shape.png"
+  },
+  {
+    "id": "weapon4_rare_15",
+    "name": "重击模式",
+    "description": "DMR模式造成的伤害增加，但射速降低。",
+    "value": "伤害：112%；射速：-45%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_rare_15.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_rare_15_shape.png"
+  },
+  {
+    "id": "weapon4_standard_1",
+    "name": "反馈增幅器",
+    "description": "造成伤害将产生更多能量。",
+    "value": "激光命中充能：+10%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_standard_1.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_standard_1_shape.png"
+  },
+  {
+    "id": "weapon4_standard_2",
+    "name": "备用扩容",
+    "description": "弹药上限增加。",
+    "value": "弹药上限：+96",
+    "icon": "images/modifier/weapon/weapon4/weapon4_standard_2.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_standard_2_shape.png"
+  },
+  {
+    "id": "weapon4_standard_3",
+    "name": "速换弹匣",
+    "description": "换弹速度加快，但弹匣容量减少。",
+    "value": "弹匣容量：-15%；换弹速度：+14%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_standard_3.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_standard_3_shape.png"
+  },
+  {
+    "id": "weapon4_standard_4",
+    "name": "重组储备",
+    "description": "激光充能容量增加，但DMR弹药容量减少。",
+    "value": "激光充能上限：+13%；弹药上限：-26%",
+    "icon": "images/modifier/weapon/weapon4/weapon4_standard_4.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_standard_4_shape.png"
+  },
+  {
+    "id": "weapon4_standard_5",
+    "name": "长距瞄准镜",
+    "description": "提升射程与瞄准缩放倍率。",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon4/weapon4_standard_5.png",
+    "shape": "images/modifier/weapon/weapon4/weapon4_standard_5_shape.png"
+  },
+
+  {
+    "id": "weapon5_oddity_1",
+    "name": "寻回",
+    "description": "磁力作用是双向的。",
+    "value": "射距：-50%",
+    "icon": "images/modifier/weapon/weapon5/weapon5_oddity_1.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_oddity_1_shape.png"
+  },
+  {
+    "id": "weapon5_exotic_1",
+    "name": "元素电弧",
+    "description": "用元素攻击命中金属板可引发一次元素爆炸。",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon5/weapon5_exotic_1.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_exotic_1_shape.png"
+  },
+  {
+    "id": "weapon5_exotic_2",
+    "name": "压缩板材存储",
+    "description": "可一次发射最多4块金属板。",
+    "value": "弹匣容量：+3",
+    "icon": "images/modifier/weapon/weapon5/weapon5_exotic_2.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_exotic_2_shape.png"
+  },
+  {
+    "id": "weapon5_exotic_3",
+    "name": "清场等离子",
+    "description": "金属板会旋转，释放光刃切割周围目标。",
+    "value": "范围：11.28",
+    "icon": "images/modifier/weapon/weapon5/weapon5_exotic_3.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_exotic_3_shape.png"
+  },
+  {
+    "id": "weapon5_exotic_4",
+    "name": "高压危险",
+    "description": "发射的金属板之间将形成闪电弧，对沿途目标造成电击伤害。弹匣容量增加。",
+    "value": "间隔：0.56；伤害：34.72；射距：16.87；弹匣容量：+1",
+    "icon": "images/modifier/weapon/weapon5/weapon5_exotic_4.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_exotic_4_shape.png"
+  },
+  {
+    "id": "weapon5_epic_1",
+    "name": "临时爆炸物",
+    "description": "金属板会消耗一次手雷充能，并在命中时引爆。",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon5/weapon5_epic_1.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_epic_1_shape.png"
+  },
+  {
+    "id": "weapon5_epic_2",
+    "name": "充能回收",
+    "description": "当你用钢板发射器使一个目标触电时，会使你的移动能力回复部分充能。",
+    "value": "充能：3%",
+    "icon": "images/modifier/weapon/weapon5/weapon5_epic_2.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_epic_2_shape.png"
+  },
+  {
+    "id": "weapon5_epic_3",
+    "name": "冲击波",
+    "description": "金属板撞击时产生冲击波，可击退敌人。",
+    "value": "范围：3.04；力：15.77",
+    "icon": "images/modifier/weapon/weapon5/weapon5_epic_3.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_epic_3_shape.png"
+  },
+  {
+    "id": "weapon5_epic_4",
+    "name": "召回蜜蜂",
+    "description": "金属板被召回时会制造一场蜜蜂爆炸。",
+    "value": "爆炸范围：3",
+    "icon": "images/modifier/weapon/weapon5/weapon5_epic_4.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_epic_4_shape.png"
+  },
+  {
+    "id": "weapon5_epic_5",
+    "name": "沙拉盘",
+    "description": "能以更快的射速发射更多金属板。金属板尺寸减小。",
+    "value": "射速：+67%；弹匣容量：+7；水平后坐力：-30%；垂直后坐力：-40%；伤害：-40%；抓握后坐力：-35%",
+    "icon": "images/modifier/weapon/weapon5/weapon5_epic_5.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_epic_5_shape.png"
+  },
+  {
+    "id": "weapon5_epic_6",
+    "name": "画家标配",
+    "description": "如果在酸蚀状态下发射金属板，命中后将生成强酸池。",
+    "value": "范围：4.44；持续时间：4.68",
+    "icon": "images/modifier/weapon/weapon5/weapon5_epic_6.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_epic_6_shape.png"
+  },
+  {
+    "id": "weapon5_epic_7",
+    "name": "盈余存储",
+    "description": "此升级项周围每有一个空的单元格，钢板尺寸便会增加。",
+    "value": "每空单元体积增幅：+0.1",
+    "icon": "images/modifier/weapon/weapon5/weapon5_epic_7.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_epic_7_shape.png"
+  },
+  {
+    "id": "weapon5_epic_8",
+    "name": "脉冲导向",
+    "description": "在空中接住一块金属板会将你向上推进。",
+    "value": "力：7.59",
+    "icon": "images/modifier/weapon/weapon5/weapon5_epic_8.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_epic_8_shape.png"
+  },
+  {
+    "id": "weapon5_epic_9",
+    "name": "高地优势",
+    "description": "当你站在自己的金属板上时，获得伤害抗性并提升所有输出伤害。",
+    "value": "伤害：+36%；伤害抗性：+28%",
+    "icon": "images/modifier/weapon/weapon5/weapon5_epic_9.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_epic_9_shape.png"
+  },
+  {
+    "id": "weapon5_rare_1",
+    "name": "不拘小节",
+    "description": "伤害增加，但散布也增加。",
+    "value": "伤害：+23%；水平散布：+10.94；垂直散布：+10.94",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_1.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_1_shape.png"
+  },
+  {
+    "id": "weapon5_rare_2",
+    "name": "穿刺攻击",
+    "description": "发射的金属板将贯穿多个目标。",
+    "value": "最大命中数：+23；击中速度：-10%；子弹重力：+1.2",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_2.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_2_shape.png"
+  },
+  {
+    "id": "weapon5_rare_3",
+    "name": "带电板材",
+    "description": "金属板施加电击。",
+    "value": "元素：+10",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_3.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_3_shape.png"
+  },
+  {
+    "id": "weapon5_rare_4",
+    "name": "弹跳板材",
+    "description": "金属板会弹跳。每次弹跳后伤害增加。",
+    "value": "可弹跳次数：+2；伤害：+13.27",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_4.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_4_shape.png"
+  },
+  {
+    "id": "weapon5_rare_5",
+    "name": "强力回收",
+    "description": "金属板在召回途中及弹跳后造成的伤害大幅增加。",
+    "value": "伤害：+123%",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_5.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_5_shape.png"
+  },
+  {
+    "id": "weapon5_rare_6",
+    "name": "接得好",
+    "description": "持握钢板发射器时伤害提升且移速加快，但接住金属板时将承受伤害。",
+    "value": "伤害：+26%；抓握伤害：+1.85；速度：+1.6",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_6.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_6_shape.png"
+  },
+  {
+    "id": "weapon5_rare_7",
+    "name": "极向校准",
+    "description": "金属板的召回更快。",
+    "value": "召回速度：+33%",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_7.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_7_shape.png"
+  },
+  {
+    "id": "weapon5_rare_8",
+    "name": "气动板",
+    "description": "金属板飞行速度加快，且可以更频繁地发射。",
+    "value": "子弹速度：+20%；射速：+43%",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_8.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_8_shape.png"
+  },
+  {
+    "id": "weapon5_rare_9",
+    "name": "简易惯性",
+    "description": "金属板的飞行距离越远，造成的伤害越高。",
+    "value": "衰减起始距离：40；衰减终止距离：150；衰减伤害：3",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_9.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_9_shape.png"
+  },
+  {
+    "id": "weapon5_rare_10",
+    "name": "自动爆破",
+    "description": "金属板在命中后将自动召回。",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_10.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_10_shape.png"
+  },
+  {
+    "id": "weapon5_rare_11",
+    "name": "衰败板材",
+    "description": "金属板施加衰败。",
+    "value": "元素：+10",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_11.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_11_shape.png"
+  },
+  {
+    "id": "weapon5_rare_12",
+    "name": "轨道调谐",
+    "description": "金属板的发射速度加快。",
+    "value": "子弹速度：+114%",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_12.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_12_shape.png"
+  },
+  {
+    "id": "weapon5_rare_13",
+    "name": "重量再平衡",
+    "description": "金属板飞行速度减慢，造成的伤害增加。",
+    "value": "伤害：+30%；子弹速度：-40%",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_13.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_13_shape.png"
+  },
+  {
+    "id": "weapon5_rare_14",
+    "name": "钨钢立方体",
+    "description": "金属板速度减缓且下坠大幅加快，但其体积大幅增加。",
+    "value": "子弹重力：+5.88；子弹速度：-79%",
+    "icon": "images/modifier/weapon/weapon5/weapon5_rare_14.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_rare_14_shape.png"
+  },
+  {
+    "id": "weapon5_standard_1",
+    "name": "双倍蓄能",
+    "description": "钢板发射器的电池容量提升。",
+    "value": "电池上限：+18.99",
+    "icon": "images/modifier/weapon/weapon5/weapon5_standard_1.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_standard_1_shape.png"
+  },
+  {
+    "id": "weapon5_standard_2",
+    "name": "更锋利的边缘",
+    "description": "伤害增加。",
+    "value": "伤害：+12%",
+    "icon": "images/modifier/weapon/weapon5/weapon5_standard_2.png",
+    "shape": "images/modifier/weapon/weapon5/weapon5_standard_2_shape.png"
+  },
+  
+
+  {
+    "id": "weapon6_exotic_1",
+    "name": "不稳定弹药",
+    "description": "击毁核心会触发元素爆炸。",
+    "value": "范围：3.21；施加：火焰/酸蚀/电击",
+    "icon": "images/modifier/weapon/weapon6/weapon6_exotic_1.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_exotic_1_shape.png"
+  },
+  {
+    "id": "weapon6_exotic_2",
+    "name": "巨型爆弹",
+    "description": "膛室仅装填一发特制子弹，其体积与威力大幅提升。",
+    "value": "弹匣容量：1；伤害：+136.45；子弹体积：+0.4；水平后坐力：+101%；垂直后坐力：+107；射速：-58%",
+    "icon": "images/modifier/weapon/weapon6/weapon6_exotic_2.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_exotic_2_shape.png"
+  },
+  {
+    "id": "weapon6_exotic_3",
+    "name": "血性暴击",
+    "description": "击杀核心时，会将一管子弹压入弹匣，下一击将其全部爆发射出。",
+    "value": "连发子弹数：22",
+    "icon": "images/modifier/weapon/weapon6/weapon6_exotic_3.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_exotic_3_shape.png"
+  },
+  {
+    "id": "weapon6_exotic_4",
+    "name": "鸿运当头",
+    "description": "射出最后一发子弹时，有概率返还弹药。",
+    "value": "概率：82.0%；弹药返还量：1",
+    "icon": "images/modifier/weapon/weapon6/weapon6_exotic_4.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_exotic_4_shape.png"
+  },
+  {
+    "id": "weapon6_epic_1",
+    "name": "凌空制霸",
+    "description": "在空中击杀目标可使你短暂悬停。",
+    "value": "持续时间：3.07",
+    "icon": "images/modifier/weapon/weapon6/weapon6_epic_1.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_epic_1_shape.png"
+  },
+  {
+    "id": "weapon6_epic_2",
+    "name": "双动扳机",
+    "description": "需要更长时间扣动扳机才能开火，伤害大幅增加。",
+    "value": "充能时间：+0.31；伤害：+143.99；射距：+152%",
+    "icon": "images/modifier/weapon/weapon6/weapon6_epic_2.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_epic_2_shape.png"
+  },
+  {
+    "id": "weapon6_epic_3",
+    "name": "幸运大转盘",
+    "description": "弹匣容量增加。子弹随机造成1%到200%的伤害。",
+    "value": "最小伤害：-99%；最大伤害：+100%；弹匣容量：+2.71",
+    "icon": "images/modifier/weapon/weapon6/weapon6_epic_3.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_epic_3_shape.png"
+  },
+  {
+    "id": "weapon6_epic_4",
+    "name": "拉尔夫的元素之谜",
+    "description": "换弹时在火焰与强酸元素间切换。",
+    "value": "元素：+2.09",
+    "icon": "images/modifier/weapon/weapon6/weapon6_epic_4.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_epic_4_shape.png"
+  },
+  {
+    "id": "weapon6_epic_5",
+    "name": "残渣余火",
+    "description": "击杀目标可获得1层废料。按住[换弹]键消耗所有废料并发射一枚大型爆炸子弹，爆炸范围根据消耗层数提升。",
+    "value": "层数：3；伤害：52.22；爆炸范围：5.06",
+    "icon": "images/modifier/weapon/weapon6/weapon6_epic_5.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_epic_5_shape.png"
+  },
+  {
+    "id": "weapon6_epic_6",
+    "name": "法外狂徒",
+    "description": "击毁核心时，返还部分弹药至弹匣。",
+    "value": "弹药返还量：2",
+    "icon": "images/modifier/weapon/weapon6/weapon6_epic_6.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_epic_6_shape.png"
+  },
+  {
+    "id": "weapon6_epic_7",
+    "name": "狂暴充能",
+    "description": "在限定时间内打空整个弹匣，可为下一弹匣充能，提升子弹伤害。",
+    "value": "最大换弹间隔：1.9；伤害：+21.98",
+    "icon": "images/modifier/weapon/weapon6/weapon6_epic_7.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_epic_7_shape.png"
+  },
+  {
+    "id": "weapon6_epic_8",
+    "name": "自动化改装",
+    "description": "以更低的射速全自动射击。",
+    "value": "射速：-55%",
+    "icon": "images/modifier/weapon/weapon6/weapon6_epic_8.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_epic_8_shape.png"
+  },
+  {
+    "id": "weapon6_epic_9",
+    "name": "自适应仓库",
+    "description": "每有一个与此升级项相邻的已占据单元格，弹匣容量就会增加；每有一个相邻的空单元格，弹匣容量则会减少。",
+    "value": "每单元弹药增量：+1.09",
+    "icon": "images/modifier/weapon/weapon6/weapon6_epic_9.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_epic_9_shape.png"
+  },
+  {
+    "id": "weapon6_rare_1",
+    "name": "“大”口径",
+    "description": "伤害增加，但最大射速降低",
+    "value": "伤害：+52%；射速：-56%",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_1.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_1_shape.png"
+  },
+  {
+    "id": "weapon6_rare_2",
+    "name": "元素共生",
+    "description": "当自身完全被一种元素影响时，子弹将附加该元素的伤害类型。",
+    "value": "元素：4.5",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_2.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_2_shape.png"
+  },
+  {
+    "id": "weapon6_rare_3",
+    "name": "加大火力就完事了！",
+    "description": "伤害增加，但后坐力也增加。",
+    "value": "伤害：+16%；垂直后坐力：+126%",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_3.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_3_shape.png"
+  },
+  {
+    "id": "weapon6_rare_4",
+    "name": "受控物质",
+    "description": "后坐力与伤害均减少。",
+    "value": "水平后坐力：-21%；垂直后坐力：-22%；伤害：-12%",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_4.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_4_shape.png"
+  },
+  {
+    "id": "weapon6_rare_5",
+    "name": "喜新厌旧",
+    "description": "换弹后短时间内提升伤害。",
+    "value": "伤害：+18%；持续时间：2.66",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_5.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_5_shape.png"
+  },
+  {
+    "id": "weapon6_rare_6",
+    "name": "土法制造",
+    "description": "每颗子弹都有几率造成额外伤害，但也有可能伤及自身。",
+    "value": "伤害增加概率：55.0%；伤害：+35%；伤害自身概率：8.0%；受到伤害：3.19",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_6.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_6_shape.png"
+  },
+  {
+    "id": "weapon6_rare_7",
+    "name": "幸运终弹",
+    "description": "膛室的最后一发子弹会爆炸。",
+    "value": "范围：1.63；伤害：+9.78",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_7.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_7_shape.png"
+  },
+  {
+    "id": "weapon6_rare_8",
+    "name": "异常聚焦",
+    "description": "瞄准时增加瞄准缩放倍率，同时大幅增加射程。",
+    "value": "瞄准距离：+17.59",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_8.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_8_shape.png"
+  },
+  {
+    "id": "weapon6_rare_9",
+    "name": "战狂",
+    "description": "击杀一个目标会短暂提高你的伤害。",
+    "value": "伤害：+14%；持续时间：2.62",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_9.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_9_shape.png"
+  },
+  {
+    "id": "weapon6_rare_10",
+    "name": "扫射四方",
+    "description": "腰射时，伤害增加。",
+    "value": "腰射伤害：+27%",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_10.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_10_shape.png"
+  },
+  {
+    "id": "weapon6_rare_11",
+    "name": "熟能生巧",
+    "description": "在换弹过程中的随机时点按开火键，可大幅提升换弹速度。",
+    "value": "持续时间：0.37；换弹速度：+183%",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_11.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_11_shape.png"
+  },
+  {
+    "id": "weapon6_rare_12",
+    "name": "燃烧弹头",
+    "description": "子弹施加火焰。",
+    "value": "元素：+1.47",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_12.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_12_shape.png"
+  },
+  {
+    "id": "weapon6_rare_13",
+    "name": "破片装载",
+    "description": "每次射击同时会发射3发子弹，单发伤害降低。",
+    "value": "伤害：-67%；单次发射子弹数：+2；水平散布：+7.44",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_13.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_13_shape.png"
+  },
+  {
+    "id": "weapon6_rare_14",
+    "name": "肾上腺素",
+    "description": "开火时短暂提升移速。",
+    "value": "速度：+3.17；持续时间：0.58",
+    "icon": "images/modifier/weapon/weapon6/weapon6_rare_14.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_rare_14_shape.png"
+  },
+  {
+    "id": "weapon6_standard_1",
+    "name": "幻觉空间",
+    "description": "弹匣容量增加",
+    "value": "弹匣容量：+1.04",
+    "icon": "images/modifier/weapon/weapon6/weapon6_standard_1.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_standard_1_shape.png"
+  },
+  {
+    "id": "weapon6_standard_2",
+    "name": "弹药背带",
+    "description": "弹药储备增加。",
+    "value": "弹药上限：+44%",
+    "icon": "images/modifier/weapon/weapon6/weapon6_standard_2.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_standard_2_shape.png"
+  },
+  {
+    "id": "weapon6_standard_3",
+    "name": "深呼吸",
+    "description": "射程增加",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon6/weapon6_standard_3.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_standard_3_shape.png"
+  },
+  {
+    "id": "weapon6_standard_4",
+    "name": "铅中毒",
+    "description": "伤害增加。",
+    "value": "伤害：16%",
+    "icon": "images/modifier/weapon/weapon6/weapon6_standard_4.png",
+    "shape": "images/modifier/weapon/weapon6/weapon6_standard_4_shape.png"
+  },
 
 
-
+  {
+    "id": "weapon7_exotic_1",
+    "name": "黄色棱镜",
+    "description": "棱镜输出会随着相连棱镜数增加（不一定要相邻）",
+    "value": "效率：135.1%；伤害：+10%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_exotic_1.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_exotic_1_shape.png"
+  },
+  {
+    "id": "weapon7_exotic_2",
+    "name": "导弹舱",
+    "description": "发射追踪导弹。",
+    "value": "追踪力度：27.82；子弹追踪范围：+0.92",
+    "icon": "images/modifier/weapon/weapon7/weapon7_exotic_2.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_exotic_2_shape.png"
+  },
+  {
+    "id": "weapon7_exotic_3",
+    "name": "引火盒",
+    "description": "狂按换弹键可使枪械过热并为弹壳注入火焰效果。炮艇加农炮仅在弹匣打空时才能换弹。过热状态时，你有概率自燃。",
+    "value": "火焰：+9.96；自燃概率：4.0%；伤害：+20%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_exotic_3.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_exotic_3_shape.png"
+  },
+  {
+    "id": "weapon7_exotic_4",
+    "name": "拉格朗日环",
+    "description": "子弹会环绕你飞行。",
+    "value": "轨道范围：7.89",
+    "icon": "images/modifier/weapon/weapon7/weapon7_exotic_4.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_exotic_4_shape.png"
+  },
+  {
+    "id": "weapon7_exotic_5",
+    "name": "重型弹药",
+    "description": "开火会将你向后推。弹匣容量增加，但后坐力也增加。",
+    "value": "水平后坐力：+102%；垂直后坐力：+110%；弹匣容量：+22.19；击退：+4",
+    "icon": "images/modifier/weapon/weapon7/weapon7_exotic_5.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_exotic_5_shape.png"
+  },
+  {
+    "id": "weapon7_epic_1",
+    "name": "“安全”条例",
+    "description": "每次射击发射多发子弹。射速和伤害降低。",
+    "value": "单次发射子弹数：+3；射速：-32%；伤害：-59%；水平散布：+448%；垂直散布：+448%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_epic_1.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_epic_1_shape.png"
+  },
+  {
+    "id": "weapon7_epic_2",
+    "name": "紫色棱镜",
+    "description": "棱镜输出会随着相连棱镜数增加（不一定要相邻）",
+    "value": "效率：130.2%；射速：+7%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_epic_2.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_epic_2_shape.png"
+  },
+  {
+    "id": "weapon7_epic_3",
+    "name": "以守代攻",
+    "description": "伤害增加，但持用炮艇加农炮时会承受更多伤害。%到200%的伤害。",
+    "value": "伤害：+55%；受到伤害：+38%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_epic_3.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_epic_3_shape.png"
+  },
+  {
+    "id": "weapon7_epic_4",
+    "name": "元素弹药",
+    "description": "子弹有几率注入火焰、电击或强酸效果。",
+    "value": "22.0%概率；效果量：3.45",
+    "icon": "images/modifier/weapon/weapon7/weapon7_epic_4.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_epic_4_shape.png"
+  },
+  {
+    "id": "weapon7_epic_5",
+    "name": "弹道蓄能器",
+    "description": "造成伤害可填充蓄能槽。按瞄准键发射追踪导弹，其爆炸威力与当前蓄能值成正比。[换弹]键消耗所有废料并发射一枚大型爆炸子弹，爆炸范围根据消耗层数提升。",
+    "value": "充能效率：111.0%；爆炸范围：13.24；爆炸伤害：226.45",
+    "icon": "images/modifier/weapon/weapon7/weapon7_epic_5.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_epic_5_shape.png"
+  },
+  {
+    "id": "weapon7_epic_6",
+    "name": "狂乱手指",
+    "description": "常规换弹功能不可用。狂按换弹键将弹药逐发压入弹匣。",
+    "value": "每层弹药返还量：3.01",
+    "icon": "images/modifier/weapon/weapon7/weapon7_epic_6.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_epic_6_shape.png"
+  },
+  {
+    "id": "weapon7_epic_7",
+    "name": "稳固假设",
+    "description": "射击时无法移动，但枪管的转速上限更高。弹匣容量、子弹体积与爆炸范围均增加。",
+    "value": "最大射速：+9%；加快射速：-9%；弹匣容量：+63.69；子弹体积：+31%；爆炸范围：+41%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_epic_7.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_epic_7_shape.png"
+  },
+  {
+    "id": "weapon7_epic_8",
+    "name": "空中压制",
+    "description": "在空中射击时子弹伤害增加，但在地面射击时伤害减少。",
+    "value": "空中伤害：+60%；落地伤害：-58%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_epic_8.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_epic_8_shape.png"
+  },
+  {
+    "id": "weapon7_epic_9",
+    "name": "穿甲弹药",
+    "description": "弹匣容量降至1。伤害、爆炸范围与子弹体积大幅增加，但射速与弹药上限降低。",
+    "value": "弹匣容量：1；%弹药上限：-92%；爆炸范围:+85%；伤害:+635%；子弹体积：+1.03；射速：-79%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_epic_9.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_epic_9_shape.png"
+  },
+  {
+    "id": "weapon7_epic_10",
+    "name": "精确爆破",
+    "description": "子弹不再爆炸，但会对命中的目标造成巨额伤害。",
+    "value": "爆炸范围：0；伤害：+229%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_epic_10.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_epic_10_shape.png"
+  },
+  {
+    "id": "weapon7_rare_1",
+    "name": "“大”口径",
+    "description": "伤害增加，但最大射速降低",
+    "value": "伤害：+52%；射速：-56%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_rare_1.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_rare_1_shape.png"
+  },
+  {
+    "id": "weapon7_rare_2",
+    "name": "元素共生",
+    "description": "当自身完全被一种元素影响时，子弹将附加该元素的伤害类型。",
+    "value": "元素：4.5",
+    "icon": "images/modifier/weapon/weapon7/weapon7_rare_2.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_rare_2_shape.png"
+  },
+  {
+    "id": "weapon7_rare_3",
+    "name": "加大火力就完事了！",
+    "description": "伤害增加，但后坐力也增加。",
+    "value": "伤害：+16%；垂直后坐力：+126%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_rare_3.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_rare_3_shape.png"
+  },
+  {
+    "id": "weapon7_rare_4",
+    "name": "受控物质",
+    "description": "后坐力与伤害均减少。",
+    "value": "水平后坐力：-21%；垂直后坐力：-22%；伤害：-12%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_rare_4.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_rare_4_shape.png"
+  },
+  {
+    "id": "weapon7_rare_5",
+    "name": "喜新厌旧",
+    "description": "换弹后短时间内提升伤害。",
+    "value": "伤害：+18%；持续时间：2.66",
+    "icon": "images/modifier/weapon/weapon7/weapon7_rare_5.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_rare_5_shape.png"
+  },
+  {
+    "id": "weapon7_rare_6",
+    "name": "土法制造",
+    "description": "每颗子弹都有几率造成额外伤害，但也有可能伤及自身。",
+    "value": "伤害增加概率：55.0%；伤害：+35%；伤害自身概率：8.0%；受到伤害：3.19",
+    "icon": "images/modifier/weapon/weapon7/weapon7_rare_6.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_rare_6_shape.png"
+  },
+  {
+    "id": "weapon7_rare_7",
+    "name": "幸运终弹",
+    "description": "膛室的最后一发子弹会爆炸。",
+    "value": "范围：1.63；伤害：+9.78",
+    "icon": "images/modifier/weapon/weapon7/weapon7_rare_7.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_rare_7_shape.png"
+  },
+  {
+    "id": "weapon7_rare_8",
+    "name": "异常聚焦",
+    "description": "瞄准时增加瞄准缩放倍率，同时大幅增加射程。",
+    "value": "瞄准距离：+17.59",
+    "icon": "images/modifier/weapon/weapon7/weapon7_rare_8.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_rare_8_shape.png"
+  },
+  {
+    "id": "weapon7_rare_9",
+    "name": "战狂",
+    "description": "击杀一个目标会短暂提高你的伤害。",
+    "value": "伤害：+14%；持续时间：2.62",
+    "icon": "images/modifier/weapon/weapon7/weapon7_rare_9.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_rare_9_shape.png"
+  },
+  {
+    "id": "weapon7_standard_1",
+    "name": "幻觉空间",
+    "description": "弹匣容量增加",
+    "value": "弹匣容量：+1.04",
+    "icon": "images/modifier/weapon/weapon7/weapon7_standard_1.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_standard_1_shape.png"
+  },
+  {
+    "id": "weapon7_standard_2",
+    "name": "弹药背带",
+    "description": "弹药储备增加。",
+    "value": "弹药上限：+44%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_standard_2.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_standard_2_shape.png"
+  },
+  {
+    "id": "weapon7_standard_3",
+    "name": "深呼吸",
+    "description": "射程增加",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon7/weapon7_standard_3.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_standard_3_shape.png"
+  },
+  {
+    "id": "weapon7_standard_4",
+    "name": "铅中毒",
+    "description": "伤害增加。",
+    "value": "伤害：16%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_standard_4.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_standard_4_shape.png"
+  },
+  {
+    "id": "weapon7_standard_5",
+    "name": "铅中毒",
+    "description": "伤害增加。",
+    "value": "伤害：16%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_standard_5.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_standard_5_shape.png"
+  },
+  {
+    "id": "weapon7_standard_6",
+    "name": "铅中毒",
+    "description": "伤害增加。",
+    "value": "伤害：16%",
+    "icon": "images/modifier/weapon/weapon7/weapon7_standard_6.png",
+    "shape": "images/modifier/weapon/weapon7/weapon7_standard_6_shape.png"
+  },
 
 
 
