@@ -48,28 +48,55 @@
     "name": "DMLR",
     "image": "images/weapon/weapon4.png",
     "description": "发射高精度能量箭，可蓄力发射强力激光束",
-    "modifiers": ["attach1", "attach2"]
+    "modifiers": ["weapon4_exotic_1", "weapon4_exotic_2", "weapon4_exotic_3", "weapon4_exotic_4",
+      "weapon4_epic_1", "weapon4_epic_2", "weapon4_epic_3", "weapon4_epic_4", "weapon4_epic_5",
+      "weapon4_epic_6",
+      "weapon4_rare_1", "weapon4_rare_2", "weapon4_rare_3", "weapon4_rare_4", "weapon4_rare_5",
+      "weapon4_rare_6", "weapon4_rare_7", "weapon4_rare_8", "weapon4_rare_9", "weapon4_rare_10",
+      "weapon4_rare_11", "weapon4_rare_12", "weapon4_rare_13", "weapon4_rare_14", "weapon4_rare_15",
+      "weapon4_standard_1", "weapon4_standard_2", "weapon4_standard_3", "weapon4_standard_4",
+      "weapon4_standard_5"]
   },  
   {
     "id": "weapon5",
     "name": "FR.15833 钢板发射器",
     "image": "images/weapon/weapon5.png",
     "description": "发射重型金属板，可钉在目标身上并通过磁力召回",
-    "modifiers": ["attach1", "attach2"]
+    "modifiers": ["weapon5_oddity_1",
+      "weapon5_exotic_1", "weapon5_exotic_2", "weapon5_exotic_3", "weapon5_exotic_4",
+      "weapon5_epic_1", "weapon5_epic_2", "weapon5_epic_3", "weapon5_epic_4", "weapon5_epic_5",
+      "weapon5_epic_6", "weapon5_epic_7", "weapon5_epic_8", "weapon5_epic_9",
+      "weapon5_rare_1", "weapon5_rare_2", "weapon5_rare_3", "weapon5_rare_4", "weapon5_rare_5",
+      "weapon5_rare_6", "weapon5_rare_7", "weapon5_rare_8", "weapon5_rare_9", "weapon5_rare_10",
+      "weapon5_rare_11", "weapon5_rare_12", "weapon5_rare_13", "weapon5_rare_14",
+      "weapon5_standard_1", "weapon5_standard_2"]
   },  
   {
     "id": "weapon6",
     "name": "铅无虚发",
     "image": "images/weapon/weapon6.png",
     "description": "扳机扣多快就能射多快，击杀后换弹速度加快",
-    "modifiers": ["attach1", "attach2"]
+    "modifiers": ["weapon6_exotic_1", "weapon6_exotic_2", "weapon6_exotic_3", "weapon6_exotic_4",
+      "weapon6_epic_1", "weapon6_epic_2", "weapon6_epic_3", "weapon6_epic_4", "weapon6_epic_5",
+      "weapon6_epic_6", "weapon6_epic_7", "weapon6_epic_8", "weapon6_epic_9",
+      "weapon6_rare_1", "weapon6_rare_2", "weapon6_rare_3", "weapon6_rare_4", "weapon6_rare_5",
+      "weapon6_rare_6", "weapon6_rare_7", "weapon6_rare_8", "weapon6_rare_9", "weapon6_rare_10",
+      "weapon6_rare_11", "weapon6_rare_12", "weapon6_rare_13", "weapon6_rare_14",
+      "weapon6_standard_1", "weapon6_standard_2", "weapon6_standard_3", "weapon6_standard_4"]
   },  
   {
     "id": "weapon7",
     "name": "炮艇加农炮",
     "image": "images/weapon/weapon7.png",
     "description": "改装自武装炮艇的加农炮，能发射大型爆炸性炮弹",
-    "modifiers": ["attach1", "attach2"]
+    "modifiers": ["weapon7_exotic_1", "weapon7_exotic_2", "weapon7_exotic_3", "weapon7_exotic_4",
+      "weapon7_exotic_5",
+      "weapon7_epic_1", "weapon7_epic_2", "weapon7_epic_3", "weapon7_epic_4", "weapon7_epic_5",
+      "weapon7_epic_6", "weapon7_epic_7", "weapon7_epic_8", "weapon7_epic_9", "weapon7_epic_10",
+      "weapon7_rare_1", "weapon7_rare_2", "weapon7_rare_3", "weapon7_rare_4", "weapon7_rare_5",
+      "weapon7_rare_6", "weapon7_rare_7", "weapon7_rare_8", "weapon7_rare_9",
+      "weapon7_standard_1", "weapon7_standard_2", "weapon7_standard_3", "weapon7_standard_4",
+      "weapon7_standard_5", "weapon7_standard_6"]
   },  
   {
     "id": "weapon8",
