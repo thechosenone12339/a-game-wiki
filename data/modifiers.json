@@ -1296,7 +1296,7 @@
     "id": "weapon9_exotic_4",
     "name": "高压锅",
     "description": "按住扳机蓄力，增大球球的爆炸范围。蓄力过久会炸自己",
-    "value": "充能时间：+0。21；子弹大小：+0.54",
+    "value": "充能时间：+0.21；子弹大小：+0.54",
     "icon": "images/modifier/weapon/weapon9/weapon9_exotic_4.png",
     "shape": "images/modifier/weapon/weapon9/weapon9_exotic_4_shape.png"
   },
