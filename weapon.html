@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>武器</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .weapon-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 24px;
+    }
+    .weapon-item {
+      background: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .weapon-item:hover {
+      transform: scale(1.03);
+    }
+    .weapon-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .weapon-item a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      display: block;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>武器</h1>
+  <div class="weapon-list" id="weaponList"></div>
+
+  <script>
+    fetch('data/weapons.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('weaponList');
+        data.forEach(weapon => {
+          const div = document.createElement('div');
+          div.className = 'weapon-item';
+          div.innerHTML = `
+            <a href="weapons/${weapon.id}.html">
+              <img src="${weapon.image}" alt="${weapon.name}" />
+              <div>${weapon.name}</div>
+            </a>
+          `;
+          container.appendChild(div);
+        });
+      });
+  </script>
+
+  <hr style="margin-top: 40px;">
+  <div style="text-align: center; margin-top: 10px;">
+    <a href="../index.html" style="text-decoration: none; font-size: 1em; color: #0066cc;">
+      ← 返回主页
+    </a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>角色</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .role-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .role-item {
+      text-align: center;
+      width: 150px;
+    }
+    .role-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .role-item a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>角色</h1>
+  <div class="role-list" id="roleList"></div>
+
+  <script>
+    fetch('data/roles.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('roleList');
+        data.forEach(role => {
+          const div = document.createElement('div');
+          div.className = 'role-item';
+          div.innerHTML = `
+            <a href="roles/${role.id}.html">
+              <img src="${role.image}" alt="${role.name}">
+              <div>${role.name}</div>
+            </a>
+          `;
+          container.appendChild(div);
+        });
+      });
+  </script>
+
+  <hr style="margin-top: 40px;">
+  <div style="text-align: center; margin-top: 10px;">
+    <a href="../index.html" style="text-decoration: none; font-size: 1em; color: #0066cc;">
+      ← 返回主页
+    </a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>金硅野兔</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .weapon-image {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .weapon-image img {
+      max-width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+    .description {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    h2 {
+      margin-top: 40px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .modifiers {
+      margin-top: 15px;
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .modifier-header, .modifier-row {
+      display: grid;
+      grid-template-columns: 60px 140px 1fr 2fr 60px;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+      gap: 10px;
+    }
+
+    .modifier-header {
+      font-weight: bold;
+      background-color: #eee;
+      text-align: center;
+    }
+
+    .modifier-icon img, .modifier-shape img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .modifier-value span {
+      display: block;
+      line-height: 1.4;
+      color: #444;
+    }
+
+    .modifier-name {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>金硅野兔</h1>
+
+  <div class="weapon-image">
+    <img src="../images/weapon/weapon2.png" alt="金硅野兔" />
+  </div>
+
+  <div class="description">
+    发射的霰弹会在弹跳后造成更高伤害并施加火焰。
+  </div>
+
+  <h2>配件列表</h2>
+  <div class="modifiers" id="modifierList">
+
+  </div>
+
+  <script>
+    const modifierIds = [
+      "weapon2_exotic_1", "weapon2_exotic_2", "weapon2_exotic_3", "weapon2_exotic_4",
+      "weapon2_epic_1", "weapon2_epic_2", "weapon2_epic_3", "weapon2_epic_4", "weapon2_epic_5",
+      "weapon2_epic_6", "weapon2_epic_7", "weapon2_epic_8", "weapon2_epic_9",
+      "weapon2_rare_1", "weapon2_rare_2", "weapon2_rare_3", "weapon2_rare_4", "weapon2_rare_5",
+      "weapon2_rare_6", "weapon2_rare_7", "weapon2_rare_8", "weapon2_rare_9", "weapon2_rare_10",
+      "weapon2_rare_11",
+      "weapon2_standard_1", "weapon2_standard_2", "weapon2_standard_3", "weapon2_standard_4",
+      "weapon2_standard_5", "weapon2_standard_6"
+    ];
+
+    fetch('../data/modifiers.json')
+      .then(res => res.json())
+      .then(allMods => {
+        const modList = document.getElementById('modifierList');
+        
+        const header = document.createElement('div');
+        header.className = 'modifier-header';
+        header.innerHTML = `
+          <div>图标</div>
+          <div>名称</div>
+          <div>属性</div>
+          <div>描述</div>
+          <div>形状</div>
+        `;
+        modList.appendChild(header);
+
+        const matched = allMods.filter(m => modifierIds.includes(m.id));
+        matched.forEach(mod => {
+          const valueParts = mod.value.split('；').map(p => `<span>${p}</span>`).join('');
+
+          const row = document.createElement('div');
+          row.className = 'modifier-row';
+          row.innerHTML = `
+            <div class="modifier-icon"><img src="../${mod.icon}" alt="${mod.name}" /></div>
+            <div class="modifier-name">${mod.name}</div>
+            <div class="modifier-value">${valueParts}</div>
+            <div class="modifier-desc">${mod.description}</div>
+            <div class="modifier-shape"><img src="../${mod.shape}" alt="${mod.name} 形状" /></div>
+          `;
+          modList.appendChild(row);
+        });
+      });
+  </script>
+
+  <hr style="margin-top: 40px;">
+  <div style="text-align: center; margin-top: 10px;">
+    <a href="../index.html" style="text-decoration: none; font-size: 1em; color: #0066cc;">
+      ← 返回主页
+    </a>
+  </div>
+
+</body>
+</html>

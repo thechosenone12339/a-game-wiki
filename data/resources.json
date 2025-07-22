@@ -1,0 +1,38 @@
+[
+  {
+    "id": "resource1",
+    "name": "洛菲丝",
+    "image": "images/resource/resource1.png",
+    "description": "一种稀有真菌，在适宜的环境条件下偶尔会生长在敌人的外壳上，通过摧毁受感染区域收获"
+  },
+  {
+    "id": "resource2",
+    "name": "谷苏拉",
+    "image": "images/resource/resource2.png",
+    "description": "一种独特温顺的真菌，可以在茎秆顶端找到，通过徒手攻击收获"
+  },  
+  {
+    "id": "resource3",
+    "name": "峰兹亚",
+    "image": "images/resource/resource3.png",
+    "description": "一种极难存活的真菌，必须从上锁的容器中释放出来才能收获"
+  },
+  {
+    "id": "resource4",
+    "name": "约克",
+    "image": "images/resource/resource4.png",
+    "description": "一种粘性子实体，与金属结合后可形成宝贵的资源，通过附着在敌人核心上并将其摧毁来收获"
+  },  
+  {
+    "id": "resource5",
+    "name": "塞克森矿石",
+    "image": "images/resource/resource5.png",
+    "description": "任务目标结算收获/任务内事件触发"
+  },
+  {
+    "id": "resource6",
+    "name": "异域资源",
+    "image": "images/resource/resource6.png",
+    "description": "目前游戏版本无作用"
+  }
+]

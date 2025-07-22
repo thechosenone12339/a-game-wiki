@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>资源</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .resource-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .resource-item {
+      text-align: center;
+      width: 150px;
+    }
+    .resource-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .resource-item a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>资源</h1>
+  <div class="resource-list" id="resourceList"></div>
+
+  <script>
+    fetch('data/resources.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('resourceList');
+        data.forEach(resource => {
+          const div = document.createElement('div');
+          div.className = 'resource-item';
+          div.innerHTML = `
+            <a href="resources/${resource.id}.html">
+              <img src="${resource.image}" alt="${resource.name}">
+              <div>${resource.name}</div>
+            </a>
+          `;
+          container.appendChild(div);
+        });
+      });
+  </script>
+
+  <hr style="margin-top: 40px;">
+  <div style="text-align: center; margin-top: 10px;">
+    <a href="../index.html" style="text-decoration: none; font-size: 1em; color: #0066cc;">
+      ← 返回主页
+    </a>
+  </div>
+</body>
+</html>

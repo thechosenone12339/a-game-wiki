@@ -1,0 +1,107 @@
+[
+  {
+    "id": "weapon1",
+    "name": "循环者",
+    "image": "images/weapon/weapon1.png",
+    "description": "使用电池弹匣供能的标准制式能量冲锋枪",
+    "modifiers": ["weapon1_exotic_1", "weapon1_exotic_2","weapon1_exotic_3", "weapon1_exotic_4",
+      "weapon1_exotic_5",
+      "weapon1_epic_1", "weapon1_epic_2", "weapon1_epic_3", "weapon1_epic_4", "weapon1_epic_5",
+      "weapon1_epic_6", "weapon1_epic_7", "weapon1_epic_8", "weapon1_epic_9",
+      "weapon1_rare_1", "weapon1_rare_2", "weapon1_rare_3", "weapon1_rare_4", "weapon1_rare_5",
+      "weapon1_rare_6", "weapon1_rare_7", "weapon1_rare_8", "weapon1_rare_9", "weapon1_rare_10",
+      "weapon1_rare_11", "weapon1_rare_12", "weapon1_rare_13",
+      "weapon1_standard_1", "weapon1_standard_2", "weapon1_standard_3", "weapon1_standard_4",
+      "weapon1_standard_5", "weapon1_standard_6", "weapon1_standard_7", "weapon1_standard_8",
+      "weapon1_standard_9"]
+  },
+  {
+    "id": "weapon2",
+    "name": "金硅野兔",
+    "image": "images/weapon/weapon2.png",
+    "description": "发射的霰弹会在弹跳后造成更高伤害并施加火焰",
+    "modifiers": ["weapon2_exotic_1", "weapon2_exotic_2", "weapon2_exotic_3", "weapon2_exotic_4",
+      "weapon2_epic_1", "weapon2_epic_2", "weapon2_epic_3", "weapon2_epic_4", "weapon2_epic_5",
+      "weapon2_epic_6", "weapon2_epic_7", "weapon2_epic_8", "weapon2_epic_9",
+      "weapon2_rare_1", "weapon2_rare_2", "weapon2_rare_3", "weapon2_rare_4", "weapon2_rare_5",
+      "weapon2_rare_6", "weapon2_rare_7", "weapon2_rare_8", "weapon2_rare_9", "weapon2_rare_10",
+      "weapon2_rare_11",
+      "weapon2_standard_1", "weapon2_standard_2", "weapon2_standard_3", "weapon2_standard_4",
+      "weapon2_standard_5", "weapon2_standard_6"]
+  },  
+  {
+    "id": "weapon3",
+    "name": "蜂群发射器",
+    "image": "images/weapon/weapon3.png",
+    "description": "发射悬浮的弹丸蜂群，释放后会俯冲并追踪敌人",
+    "modifiers": ["weapon2_exotic_1", "weapon2_exotic_2", "weapon2_exotic_3", "weapon2_exotic_4",
+      "weapon2_epic_1", "weapon2_epic_2", "weapon2_epic_3", "weapon2_epic_4", "weapon2_epic_5",
+      "weapon2_epic_6", "weapon2_epic_7", "weapon2_epic_8", "weapon2_epic_9", "weapon2_epic_10",
+      "weapon2_rare_1", "weapon2_rare_2", "weapon2_rare_3", "weapon2_rare_4", "weapon2_rare_5",
+      "weapon2_rare_6", "weapon2_rare_7", "weapon2_rare_8", "weapon2_rare_9", "weapon2_rare_10",
+      "weapon2_rare_11",
+      "weapon2_standard_1", "weapon2_standard_2", "weapon2_standard_3", "weapon2_standard_4",
+      "weapon2_standard_5"]
+  },  
+  {
+    "id": "weapon4",
+    "name": "DMLR",
+    "image": "images/weapon/weapon4.png",
+    "description": "发射高精度能量箭，可蓄力发射强力激光束",
+    "modifiers": ["attach1", "attach2"]
+  },  
+  {
+    "id": "weapon5",
+    "name": "FR.15833 钢板发射器",
+    "image": "images/weapon/weapon5.png",
+    "description": "发射重型金属板，可钉在目标身上并通过磁力召回",
+    "modifiers": ["attach1", "attach2"]
+  },  
+  {
+    "id": "weapon6",
+    "name": "铅无虚发",
+    "image": "images/weapon/weapon6.png",
+    "description": "扳机扣多快就能射多快，击杀后换弹速度加快",
+    "modifiers": ["attach1", "attach2"]
+  },  
+  {
+    "id": "weapon7",
+    "name": "炮艇加农炮",
+    "image": "images/weapon/weapon7.png",
+    "description": "改装自武装炮艇的加农炮，能发射大型爆炸性炮弹",
+    "modifiers": ["attach1", "attach2"]
+  },  
+  {
+    "id": "weapon8",
+    "name": "三叉戟 S2",
+    "image": "images/weapon/weapon8.png",
+    "description": "每次射击发射三发子弹的大口径自动步枪",
+    "modifiers": ["attach1", "attach2"]
+  },  
+  {
+    "id": "weapon9",
+    "name": "球球枪",
+    "image": "images/weapon/weapon9.png",
+    "description": "发射可弹跳的强酸粘球的榴弹发射器",
+    "modifiers": ["weapon9_exotic_1", "weapon9_exotic_2", "weapon9_exotic_3", "weapon9_exotic_4",
+      "weapon9_epic_1", "weapon9_epic_2", "weapon9_epic_3", "weapon9_epic_4", "weapon9_epic_5",
+      "weapon9_epic_6",
+      "weapon9_rare_1", "weapon9_rare_2", "weapon9_rare_3", "weapon9_rare_4", "weapon9_rare_5",
+      "weapon9_rare_6", "weapon9_rare_7", "weapon9_rare_8", "weapon9_rare_9", "weapon9_rare_10",
+      "weapon9_rare_11", "weapon9_rare_12",
+      "weapon9_standard_1", "weapon9_standard_2", "weapon9_standard_3"]
+  },  
+  {
+    "id": "weapon10",
+    "name": "切割者",
+    "image": "images/weapon/weapon10.png",
+    "description": "重型战斗链锯，使用者阵亡率极高",
+    "modifiers": ["weapon10_exotic_1", "weapon10_exotic_2", "weapon10_exotic_3", "weapon10_exotic_4",
+      "weapon10_epic_1", "weapon10_epic_2", "weapon10_epic_3", "weapon10_epic_4", "weapon10_epic_5",
+      "weapon10_epic_6", "weapon10_epic_7", "weapon10_epic_8", "weapon10_epic9",
+      "weapon10_rare_1", "weapon10_rare_2", "weapon10_rare_3", "weapon10_rare_4", "weapon10_rare_5",
+      "weapon10_rare_6", "weapon10_rare_7",
+      "weapon10_standard_1", "weapon10_standard_2", "weapon10_standard_3", "weapon10_standard_4",
+      "weapon10_standard_5"]
+  }
+]

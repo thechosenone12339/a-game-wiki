@@ -1,0 +1,74 @@
+[
+  {
+    "id": "role1",
+    "name": "套索牛仔",
+    "image": "images/role/role1.png",
+    "skills": [
+      {
+        "name": "火箭套索",
+        "description": "投掷带火箭推进力的套索，用于拉动物体或令自己弹射前进",
+        "image": "images/skill/role1.1.png"
+      },
+      {
+        "name": "空中冲刺",
+        "description": "在空中按跳跃键向前冲刺",
+        "image": "images/skill/role1.2.png"
+      }
+    ],
+    "modifiers": ["attach1", "attach2"]
+  },
+  {
+    "id": "role2",
+    "name": "铁壁重锤",
+    "image": "images/role/role2.png",
+    "skills": [
+      {
+        "name": "坚光投射器",
+        "description": "投射一面护盾，可击晕敌人并反弹来袭的投射物",
+        "image": "images/skill/role2.1.png"
+      },
+      {
+        "name": "俯冲",
+        "description": "在空中时按跳跃键可砸向地面，发出一道冲击波，对附近目标造成伤害并将其击飞",
+        "image": "images/skill/role2.2.png"
+      }
+    ],
+    "modifiers": ["attach2"]
+  },
+  {
+    "id": "role3",
+    "name": "废料技工",
+    "image": "images/role/role3.png",
+    "skills": [
+      {
+        "name": "抓钩杆",
+        "description": "建造一根高杆，任何盟友都可以对其使用抓钩",
+        "image": "images/skill/role3.1.png"
+      },
+      {
+        "name": "喷气背包",
+        "description": "按住跳跃键可向上飞行",
+        "image": "images/skill/role3.2.png"
+      }
+    ],
+    "modifiers": ["attach2"]
+  },
+  {
+    "id": "role4",
+    "name": "飞翼天使",
+    "image": "images/role/role4.png",
+    "skills": [
+      {
+        "name": "火箭齐射",
+        "description": "锁定并发射一连串火箭，对敌人造成伤害并治疗盟友",
+        "image": "images/skill/role4.1.png"
+      },
+      {
+        "name": "翼装",
+        "description": "按住跳跃键激活你的翼装喷射器并向前飞行",
+        "image": "images/skill/role4.2.png"
+      }
+    ],
+    "modifiers": ["attach2"]
+  }
+]

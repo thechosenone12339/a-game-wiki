@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>废料技工</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    .character-image {
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 300px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .skill {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 20px;
+      background: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .skill img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+    }
+    .skill-info {
+      flex: 1;
+    }
+    .modifiers {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .modifier {
+      width: 64px;
+      height: 64px;
+      background-color: #eee;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .modifier img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <h1>废料技工</h1>
+  <img src="../images/role/role3.png" alt="废料技工" class="character-image" />
+
+  <div class="section">
+    <h2>技能</h2>
+    <div class="skill">
+      <img src="../images/skill/role3.1.png" alt="抓钩杆" />
+      <div class="skill-info">
+        <h3>抓钩杆</h3>
+        <p>建造一根高杆，任何盟友都可以对其使用抓钩</p>
+      </div>
+    </div>
+    <div class="skill">
+      <img src="../images/skill/role3.2.png" alt="喷气背包" />
+      <div class="skill-info">
+        <h3>喷气背包</h3>
+        <p>按住跳跃键可向上飞行</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>配件</h2>
+    <div class="modifiers">
+      <div class="modifier">
+        <a href="../modifiers/attach1.html">
+          <img src="../images/modifier/attach1.png" alt="attach1" />
+        </a>
+      </div>
+      <div class="modifier">
+        <a href="../modifiers/attach2.html">
+          <img src="../images/modifier/attach2.png" alt="attach2" />
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

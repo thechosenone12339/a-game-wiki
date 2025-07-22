@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>手雷</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .grenade-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 24px;
+    }
+    .grenade-item {
+      background: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .grenade-item:hover {
+      transform: scale(1.03);
+    }
+    .grenade-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .grenade-item a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      display: block;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>手雷</h1>
+  <div class="grenade-list" id="grenadeList"></div>
+
+  <script>
+    fetch('data/grenades.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('grenadeList');
+        data.forEach(grenade => {
+          const div = document.createElement('div');
+          div.className = 'grenade-item';
+          div.innerHTML = `
+            <a href="grenades/${grenade.id}.html">
+              <img src="${grenade.image}" alt="${grenade.name}" />
+              <div>${grenade.name}</div>
+            </a>
+          `;
+          container.appendChild(div);
+        });
+      });
+  </script>
+
+  <hr style="margin-top: 40px;">
+  <div style="text-align: center; margin-top: 10px;">
+    <a href="../index.html" style="text-decoration: none; font-size: 1em; color: #0066cc;">
+      ← 返回主页
+    </a>
+  </div>
+    
+</body>
+</html>

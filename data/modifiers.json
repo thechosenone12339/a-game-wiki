@@ -1,0 +1,1673 @@
+[
+  {
+    "id": "grenade1_exotic_1",
+    "name": "内燃机制",
+    "description": "承受火焰伤害会获得燃烧层数。达到100层时触发爆炸，引燃周围敌人并治疗自身。",
+    "value": "效率：213%；范围：17.87；治疗：13.67",
+    "icon": "images/modifier/grenade/grenade1/grenade1_exotic_1.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_exotic_1_shape.png"
+  },
+  {
+    "id": "grenade1_exotic_2",
+    "name": "家的温暖",
+    "description": "站在你上次手雷爆炸区域附近时，手雷回复速度加快。",
+    "value": "充能：+85%；充能范围：-8%",
+    "icon": "images/modifier/grenade/grenade1/grenade1_exotic_2.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_exotic_2_shape.png"  
+  },
+  {
+    "id": "grenade1_exotic_3",
+    "name": "集束炸弹",
+    "description": "你的手雷会爆炸成更多的手雷集群。",
+    "value": "集束炸弹数：4",
+    "icon": "images/modifier/grenade/grenade1/grenade1_exotic_3.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_exotic_3_shape.png"
+  },
+  {
+    "id": "grenade1_epic_1",
+    "name": "剧烈反应",
+    "description": "用手雷命中酸蚀的目标会扩大下一颗手雷的爆炸范围。",
+    "value": "爆炸范围：+63%",
+    "icon": "images/modifier/grenade/grenade1/grenade1_epic_1.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_epic_1_shape.png"
+  },
+  {
+    "id": "grenade1_epic_2",
+    "name": "搭档系统",
+    "description": "获得第二发手雷充能，但冷却时间略微增加。",
+    "value": "回复速度：-5%；充能：+1",
+    "icon": "images/modifier/grenade/grenade1/grenade1_epic_2.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_epic_2_shape.png"
+  },
+  {
+    "id": "grenade1_epic_3",
+    "name": "散热槽",
+    "description": "当你被引燃时，获得手雷充能。",
+    "value": "充能：31%",
+    "icon": "images/modifier/grenade/grenade1/grenade1_epic_3.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_epic_3_shape.png"
+  },
+  {
+    "id": "grenade1_epic_4",
+    "name": "狂人战术",
+    "description": "用手雷伤害自己会获得野火。当野火激活时，你造成的所有普通伤害都会转化为火焰伤害。",
+    "value": "/",
+    "icon": "images/modifier/grenade/grenade1/grenade1_epic_4.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_epic_4_shape.png"
+  },
+  {
+    "id": "grenade1_epic_5",
+    "name": "福祸相依",
+    "description": "引燃时，你承受更高的持续伤害，但同时可以造成更高伤害。",
+    "value": "火焰攻击倍率：+45%；火焰受击修正：+25%",
+    "icon": "images/modifier/grenade/grenade1/grenade1_epic_5.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_epic_5_shape.png"
+  },
+  {
+    "id": "grenade1_epic_6",
+    "name": "赌徒协议",
+    "description": "投掷手雷时有概率立即重新就绪，但也有概率立即死亡。每次触发前者会同时提高两者的概率，触发后者则重置概率。",
+    "value": "回复概率：50%；自燃概率：3.0%；概率增幅：+5%",
+    "icon": "images/modifier/grenade/grenade1/grenade1_epic_6.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_epic_6_shape.png"
+  },
+  {
+    "id": "grenade1_epic_7",
+    "name": "连锁引爆",
+    "description": "用近战攻击命中一个引燃的目标可补充手雷充能。",
+    "value": "充能：+1",
+    "icon": "images/modifier/grenade/grenade1/grenade1_epic_7.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_epic_7_shape.png"
+  },
+  {
+    "id": "grenade1_rare_1",
+    "name": "不稳定爆炸物",
+    "description": "手雷会弹跳，并在每次弹跳时会爆炸。",
+    "value": "可弹跳次数：+1",
+    "icon": "images/modifier/grenade/grenade1/grenade1_rare_1.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_rare_1_shape.png"
+  },
+  {
+    "id": "grenade1_rare_2",
+    "name": "凝固汽油弹",
+    "description": "所有与该手雷属性相同的输出伤害都会增加。",
+    "value": "/",
+    "icon": "images/modifier/grenade/grenade1/grenade1_rare_2.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_rare_2_shape.png"
+  },
+  {
+    "id": "grenade1_rare_3",
+    "name": "廉价材料",
+    "description": "手雷冷却时间减少，但你会承受更多火焰伤害。",
+    "value": "回复速度：+19%；收到伤害：+30%",
+    "icon": "images/modifier/grenade/grenade1/grenade1_rare_3.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_rare_3_shape.png"
+  },
+  {
+    "id": "grenade1_rare_4",
+    "name": "恢复协议",
+    "description": "投掷手雷时恢复生命值。",
+    "value": "生命值：+17.17",
+    "icon": "images/modifier/grenade/grenade1/grenade1_rare_4.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_rare_4_shape.png"
+  },
+  {
+    "id": "grenade1_rare_5",
+    "name": "火热拳击",
+    "description": "你的近战攻击会施加火焰",
+    "value": "/",
+    "icon": "images/modifier/grenade/grenade1/grenade1_rare_5.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_rare_5_shape.png"
+  },
+  {
+    "id": "grenade1_rare_6",
+    "name": "焊接热浪",
+    "description": "你的手雷爆炸会治疗队友。",
+    "value": "治疗：19.2",
+    "icon": "images/modifier/grenade/grenade1/grenade1_rare_6.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_rare_6_shape.png"
+  },
+  {
+    "id": "grenade1_rare_7",
+    "name": "自制燃烧弹",
+    "description": "手雷造成更高的冲击伤害，但自身也会承受额外伤害。",
+    "value": "伤害：+54%；受到伤害：+1735%",
+    "icon": "images/modifier/grenade/grenade1/grenade1_rare_7.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_rare_7_shape.png"
+  },
+  {
+    "id": "grenade1_standard_1",
+    "name": "大型引爆",
+    "description": "爆炸范围增加，但冲击伤害降低。",
+    "value": "伤害：-65%；爆炸范围：+57%",
+    "icon": "images/modifier/grenade/grenade1/grenade1_standard_1.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_standard_1_shape.png"
+  },
+  {
+    "id": "grenade1_standard_2",
+    "name": "火凝胶",
+    "description": "你的手雷对自身施加的元素效果减小。",
+    "value": "自身伤害：-64%",
+    "icon": "images/modifier/grenade/grenade1/grenade1_standard_2.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_standard_2_shape.png"
+  },
+  {
+    "id": "grenade1_standard_3",
+    "name": "过热充能",
+    "description": "手雷冷却时间减少。",
+    "value": "回复速度：+13%",
+    "icon": "images/modifier/grenade/grenade1/grenade1_standard_3.png",
+    "shape": "images/modifier/grenade/grenade1/grenade1_standard_3_shape.png"
+  },
+
+
+  {
+    "id": "grenade2_exotic_1",
+    "name": "通电导线",
+    "description": "你将化为手雷，爆炸多次且获得移速提升。",
+    "value": "持续时间：6.92；爆炸间隔：1.49；速度：+5.14",
+    "icon": "images/modifier/grenade/grenade2/grenade2_exotic_1.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_exotic_1_shape.png"
+  },
+  {
+    "id": "grenade2_exotic_2",
+    "name": "闪电风暴",
+    "description": "手雷飞行期间会向下劈落闪电。",
+    "value": "间隔：0.11",
+    "icon": "images/modifier/grenade/grenade2/grenade2_exotic_2.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_exotic_2_shape.png"  
+  },
+  {
+    "id": "grenade2_exotic_3",
+    "name": "非法袖珍手雷",
+    "description": "手雷伤害降低、爆炸半径极小，但回复速度大幅加快。",
+    "value": "回复速度：+2521%；爆炸范围：-73%；伤害：-82%",
+    "icon": "images/modifier/grenade/grenade2/grenade2_exotic_3.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_exotic_3_shape.png"
+  },
+  {
+    "id": "grenade2_epic_1",
+    "name": "云间跃",
+    "description": "获得短距二段跳能力。",
+    "value": "速度：17，62",
+    "icon": "images/modifier/grenade/grenade2/grenade2_epic_1.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_epic_1_shape.png"
+  },
+  {
+    "id": "grenade2_epic_2",
+    "name": "激发等离子",
+    "description": "如果你的手雷爆炸命中引燃目标，将引发第二次伤害性爆炸。",
+    "value": "伤害：-65%",
+    "icon": "images/modifier/grenade/grenade2/grenade2_epic_2.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_epic_2_shape.png"
+  },
+  {
+    "id": "grenade2_epic_3",
+    "name": "炸弹跳",
+    "description": "手雷命中自身时会将你垂直向上发射。",
+    "value": "力：43.5",
+    "icon": "images/modifier/grenade/grenade2/grenade2_epic_3.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_epic_3_shape.png"
+  },
+  {
+    "id": "grenade2_epic_4",
+    "name": "电击引流",
+    "description": "当你用其他武器令自标触电时，获得手雷能量。",
+    "value": "触电充能：+1.17",
+    "icon": "images/modifier/grenade/grenade2/grenade2_epic_4.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_epic_4_shape.png"
+  },
+  {
+    "id": "grenade2_epic_5",
+    "name": "电磁吸附",
+    "description": "手雷会向敌人吸附。",
+    "value": "力：2.26",
+    "icon": "images/modifier/grenade/grenade2/grenade2_epic_5.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_epic_5_shape.png"
+  },
+  {
+    "id": "grenade2_epic_6",
+    "name": "疯狂发电",
+    "description": "当通电导线激活时，移速进一步加快且无法停止冲刺。",
+    "value": "速度：+7.65",
+    "icon": "images/modifier/grenade/grenade2/grenade2_epic_6.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_epic_6_shape.png"
+  },
+  {
+    "id": "grenade2_epic_7",
+    "name": "紧急撤离",
+    "description": "生命值告急时，投掷手雷会为你的移动能力回复部分充能。",
+    "value": "充能：67%",
+    "icon": "images/modifier/grenade/grenade2/grenade2_epic_7.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_epic_7_shape.png"
+  },
+  {
+    "id": "grenade2_epic_8",
+    "name": "轰雷之压",
+    "description": "手雷爆炸会将你推离爆炸源。",
+    "value": "力：44.6",
+    "icon": "images/modifier/grenade/grenade2/grenade2_epic_8.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_epic_8_shape.png"
+  },
+  {
+    "id": "grenade2_rare_1",
+    "name": "相位外壳",
+    "description": "你的手雷可以穿透护盾。",
+    "value": "/",
+    "icon": "images/modifier/grenade/grenade2/grenade2_rare_1.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_rare_1_shape.png"
+  },
+  {
+    "id": "grenade2_rare_2",
+    "name": "眩晕",
+    "description": "手雷会眩晕敌人",
+    "value": "/",
+    "icon": "images/modifier/grenade/grenade2/grenade2_rare_2.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_rare_2_shape.png"
+  },
+  {
+    "id": "grenade2_rare_3",
+    "name": "系统超载",
+    "description": "被手雷爆炸命中的玩家会在短时间提升移速。",
+    "value": "/",
+    "icon": "images/modifier/grenade/grenade2/grenade2_rare_3.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_rare_3_shape.png"
+  },
+  {
+    "id": "grenade2_rare_4",
+    "name": "静电充能",
+    "description": "滑铲期间手雷回复速度加快。",
+    "value": "每秒充能量：+1.23",
+    "icon": "images/modifier/grenade/grenade2/grenade2_rare_4.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_rare_4_shape.png"
+  },
+  {
+    "id": "grenade2_rare_5",
+    "name": "马拉松",
+    "description": "手雷充能期间，你的移速加快。",
+    "value": "速度：+28%",
+    "icon": "images/modifier/grenade/grenade2/grenade2_rare_5.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_rare_5_shape.png"
+  },
+  {
+    "id": "grenade2_rare_6",
+    "name": "高压电流",
+    "description": "所有与该手雷属性相同的输出伤害都会增加。",
+    "value": "伤害：+14%",
+    "icon": "images/modifier/grenade/grenade2/grenade2_rare_6.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_rare_6_shape.png"
+  },
+  {
+    "id": "grenade2_standard_1",
+    "name": "快速球",
+    "description": "以更强力量投掷手雷。",
+    "value": "子弹速度：+100%",
+    "icon": "images/modifier/grenade/grenade2/grenade2_standard_1.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_standard_1_shape.png"
+  },
+  {
+    "id": "grenade2_standard_2",
+    "name": "绝缘手套",
+    "description": "你的手雷对自身施加的元素效果减小。",
+    "value": "自身伤害：-69%",
+    "icon": "images/modifier/grenade/grenade2/grenade2_standard_2.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_standard_2_shape.png"
+  },
+  {
+    "id": "grenade2_standard_3",
+    "name": "膨胀",
+    "description": "爆炸范围增加",
+    "value": "爆炸范围：+64%",
+    "icon": "images/modifier/grenade/grenade2/grenade2_standard_3.png",
+    "shape": "images/modifier/grenade/grenade2/grenade2_standard_3_shape.png"
+  },
+
+
+  {
+    "id": "grenade3_exotic_1",
+    "name": "涡轮增压",
+    "description": "被敌人的过载爆炸击中时，手雷会回复部分充能。距离爆炸中心越近，回复的量越多。",
+    "value": "充能：+49.88",
+    "icon": "images/modifier/grenade/grenade3/grenade3_exotic_1.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_exotic_1_shape.png"
+  },
+  {
+    "id": "grenade3_exotic_2",
+    "name": "联动系统",
+    "description": "手雷爆破时激活雇员的次要能力。",
+    "value": "/",
+    "icon": "images/modifier/grenade/grenade3/grenade3_exotic_2.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_exotic_2_shape.png"  
+  },
+  {
+    "id": "grenade3_exotic_3",
+    "name": "重型支援",
+    "description": "手雷会在撞击点呼叫一次重型武器空投。冷却时间增加。",
+    "value": "回复速度：-81%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_exotic_3.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_exotic_3_shape.png"
+  },
+  {
+    "id": "grenade3_epic_1",
+    "name": "光速物质传送",
+    "description": "手雷落地时瞬移至它的位置。",
+    "value": "/",
+    "icon": "images/modifier/grenade/grenade3/grenade3_epic_1.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_epic_1_shape.png"
+  },
+  {
+    "id": "grenade3_epic_2",
+    "name": "劣化",
+    "description": "手雷对金属目标施加腐烂效果。",
+    "value": "/",
+    "icon": "images/modifier/grenade/grenade3/grenade3_epic_2.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_epic_2_shape.png"
+  },
+  {
+    "id": "grenade3_epic_3",
+    "name": "懒人出街",
+    "description": "站立不动时，你的手雷回复速度加快。",
+    "value": "每秒充能量：+70%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_epic_3.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_epic_3_shape.png"
+  },
+  {
+    "id": "grenade3_epic_4",
+    "name": "放热反应",
+    "description": "用手雷击中触电目标时，会将其引燃。",
+    "value": "/",
+    "icon": "images/modifier/grenade/grenade3/grenade3_epic_4.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_epic_4_shape.png"
+  },
+  {
+    "id": "grenade3_epic_5",
+    "name": "酸液池",
+    "description": "手雷爆炸后在地面留下一片强酸池。",
+    "value": "/",
+    "icon": "images/modifier/grenade/grenade3/grenade3_epic_5.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_epic_5_shape.png"
+  },
+  {
+    "id": "grenade3_epic_6",
+    "name": "防御机制",
+    "description": "受到伤害时，你有几率触发一次强酸爆炸。",
+    "value": "概率：36%；爆炸范围：5.52",
+    "icon": "images/modifier/grenade/grenade3/grenade3_epic_6.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_epic_6_shape.png"
+  },
+  {
+    "id": "grenade3_epic_7",
+    "name": "黑洞通道",
+    "description": "手雷爆炸前会将目标牵引至中心。",
+    "value": "力：14.35；范围：+60%；导火线：+2.39",
+    "icon": "images/modifier/grenade/grenade3/grenade3_epic_7.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_epic_7_shape.png"
+  },
+  {
+    "id": "grenade3_rare_1",
+    "name": "咕噜咕噜",
+    "description": "一次投掷2颗手雷，散布范围更大。爆炸范围减小。",
+    "value": "单次发射子弹数：+1；水平散布：+35.36；垂直散布：+8.68；爆炸范围：-37%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_rare_1.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_rare_1_shape.png"
+  },
+  {
+    "id": "grenade3_rare_2",
+    "name": "毒气阀门",
+    "description": "当你站在强酸池中时，手雷回复速度加快。",
+    "value": "池中回复速度：+413%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_rare_2.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_rare_2_shape.png"
+  },
+  {
+    "id": "grenade3_rare_3",
+    "name": "润滑混合物",
+    "description": "被手雷爆炸命中的队友可获得移动能力充能。冷却时间略微减少。",
+    "value": "充能：+90%；回复速度：+9%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_rare_3.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_rare_3_shape.png"
+  },
+  {
+    "id": "grenade3_rare_4",
+    "name": "聚合物涂层",
+    "description": "手雷爆破时为附近玩家提供护罩。",
+    "value": "护罩范围：+99%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_rare_4.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_rare_4_shape.png"
+  },
+  {
+    "id": "grenade3_rare_5",
+    "name": "诡异鸡尾酒",
+    "description": "手雷有概率触发随机元素的二次爆炸。",
+    "value": "概率：52%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_rare_5.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_rare_5_shape.png"
+  },
+  {
+    "id": "grenade3_rare_6",
+    "name": "塞克森矿石涂层",
+    "description": "手雷以更大力量投出，并且不受重力影响。",
+    "value": "子弹重力：0；子弹速度：+28%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_rare_6.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_rare_6_shape.png"
+  },
+  {
+    "id": "grenade3_rare_7",
+    "name": "通用溶剂",
+    "description": "所有与该手雷属性相同的输出伤害都会增加。",
+    "value": "伤害：+13%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_rare_7.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_rare_7_shape.png"
+  },
+  {
+    "id": "grenade3_standard_1",
+    "name": "冷却系统",
+    "description": "冷却时间减少。",
+    "value": "回复速度：+8%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_standard_1.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_standard_1_shape.png"
+  },
+  {
+    "id": "grenade3_standard_2",
+    "name": "基础涂层",
+    "description": "你的手雷对自身施加的元素效果减小。",
+    "value": "自身伤害：-62%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_standard_2.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_standard_2_shape.png"
+  },
+  {
+    "id": "grenade3_standard_3",
+    "name": "过载",
+    "description": "爆炸范围增加，但冷却时间也增加。",
+    "value": "爆炸范围：+24%；回复速度：-13%",
+    "icon": "images/modifier/grenade/grenade3/grenade3_standard_3.png",
+    "shape": "images/modifier/grenade/grenade3/grenade3_standard_3_shape.png"
+  },
+
+
+  {
+    "id": "weapon1_exotic_1",
+    "name": "无限燃烧",
+    "description": "获得无限弹药。持续开火会根据该枪械的元素类型对自身造成伤害。",
+    "value": "伤害生效阈值：39；伤害：1.84；元素0.74",
+    "icon": "images/modifier/weapon/weapon1/weapon1_exotic_1.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_exotic_1_shape.png"
+  },
+  {
+    "id": "weapon1_exotic_2",
+    "name": "焦灼爆炸",
+    "description": "消灭[已引燃]的自标会使其爆炸。",
+    "value": "范围：3.76；伤害：27.61",
+    "icon": "images/modifier/weapon/weapon1/weapon1_exotic_2.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_exotic_2_shape.png"
+  },
+  {
+    "id": "weapon1_exotic_3",
+    "name": "爆燃",
+    "description": "引燃一个目标时对附近目标施加+5火焰。",
+    "value": "火焰范围：3.13；火焰量：2.18",
+    "icon": "images/modifier/weapon/weapon1/weapon1_exotic_3.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_exotic_3_shape.png"
+  },
+  {
+    "id": "weapon1_exotic_4",
+    "name": "电击回馈",
+    "description": "令目标触电后会为弹匣回复弹药。",
+    "value": "弹药返还量：18",
+    "icon": "images/modifier/weapon/weapon1/weapon1_exotic_4.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_exotic_4_shape.png"
+  },
+  {
+    "id": "weapon1_exotic_5",
+    "name": "酸蚀虹吸",
+    "description": "用任意武器对敌人施加酸蚀后，有概率为弹匣逐渐回复弹药。",
+    "value": "概率：16%；弹药返还量：2",
+    "icon": "images/modifier/weapon/weapon1/weapon1_exotic_5.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_exotic_5_shape.png"
+  },
+  {
+    "id": "weapon1_epic_1",
+    "name": "剧烈反应",
+    "description": "增加所施加元素效果的强度。大幅增加水平散布。",
+    "value": "水平散布：+301%；元素：+70%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_epic_1.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_epic_1_shape.png"
+  },
+  {
+    "id": "weapon1_epic_2",
+    "name": "动量超载",
+    "description": "令目标触电后短时间内提高移动速度。",
+    "value": "速度：3.72；持续时间：3.95",
+    "icon": "images/modifier/weapon/weapon1/weapon1_epic_2.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_epic_2_shape.png"
+  },
+  {
+    "id": "weapon1_epic_3",
+    "name": "循环修复",
+    "description": "在持续射击时，射出的每第15发子弹都会治疗你。",
+    "value": "生命值：+0.73",
+    "icon": "images/modifier/weapon/weapon1/weapon1_epic_3.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_epic_3_shape.png"
+  },
+  {
+    "id": "weapon1_epic_4",
+    "name": "毒素循环",
+    "description": "持续造成伤害会提高施加的强酸效果量，同时也会增加后坐力。",
+    "value": "每秒强酸量：2.71；每秒后坐力：0.7",
+    "icon": "images/modifier/weapon/weapon1/weapon1_epic_4.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_epic_4_shape.png"
+  },
+  {
+    "id": "weapon1_epic_5",
+    "name": "蓄力倾泻",
+    "description": "按住扳机蓄力。松开时，所有准备好的弹药都会极快地发射出去。",
+    "value": "射速：+119%；充能时间：+1.61；水平后坐力：+0.8；垂直后坐力：-54%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_epic_5.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_epic_5_shape.png"
+  },
+  {
+    "id": "weapon1_epic_6",
+    "name": "装备虹吸",
+    "description": "使用其他装备造成伤害时，会为该武器弹匣回复弹药。略微降低换弹速度。",
+    "value": "弹药效率：0.99；换弹速度：-13%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_epic_6.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_epic_6_shape.png"
+  },
+  {
+    "id": "weapon1_epic_7",
+    "name": "质量加速",
+    "description": "弹匣中每装填一发子弹，射速都会提升。基础射速降低。",
+    "value": "效率：101%；射速：-31%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_epic_7.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_epic_7_shape.png"
+  },
+  {
+    "id": "weapon1_epic_8",
+    "name": "超轻型框架",
+    "description": "可以在冲刺时开火",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon1/weapon1_epic_8.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_epic_8_shape.png"
+  },
+  {
+    "id": "weapon1_epic_9",
+    "name": "超高温反应",
+    "description": "快速引燃多个目标会增加每次射击施加的火焰效果量。",
+    "value": "火焰提升：1.77",
+    "icon": "images/modifier/weapon/weapon1/weapon1_epic_9.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_epic_9_shape.png"
+  },
+  {
+    "id": "weapon1_rare_1",
+    "name": "元素释放",
+    "description": "蓄力后释放一次元素冲击，对附近所有目标造成伤害。",
+    "value": "充能时间：+0.66；范围：3.31；伤害：13.16",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_1.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_1_shape.png"
+  },
+  {
+    "id": "weapon1_rare_2",
+    "name": "充能弹匣",
+    "description": "子弹施加电击",
+    "value": "元素：+1.86",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_2.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_2_shape.png"
+  },
+  {
+    "id": "weapon1_rare_3",
+    "name": "全域增程",
+    "description": "每有一个与此升级项相邻的不同稀有度的升级项，便会增加射程。",
+    "value": "稀有度射程系数：10.72",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_3.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_3_shape.png"
+  },
+  {
+    "id": "weapon1_rare_4",
+    "name": "凝聚喷发",
+    "description": "发射缓慢的等离子弹，伤害更高。",
+    "value": "伤害：+20%；子弹速度：+17.71；子弹体积：0.5；衰减起始距离：60；衰减终止距离：70；射距：80；水平散布：+2.08；垂直散布：+2.08",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_4.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_4_shape.png"
+  },
+  {
+    "id": "weapon1_rare_5",
+    "name": "加热电池",
+    "description": "子弹施加火焰",
+    "value": "元素：+1.9",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_5.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_5_shape.png"
+  },
+  {
+    "id": "weapon1_rare_6",
+    "name": "双发射击",
+    "description": "每次发射两颗子弹。降低弹匣容量和射速。",
+    "value": "单次发射子弹数：+1；弹匣容量：-22%；射速：-24%；水平散布：+3.82",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_6.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_6_shape.png"
+  },
+  {
+    "id": "weapon1_rare_7",
+    "name": "智能滑铲",
+    "description": "滑铲时子弹会自动追踪目标。",
+    "value": "子弹追踪范围：17.65",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_7.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_7_shape.png"
+  },
+  {
+    "id": "weapon1_rare_8",
+    "name": "火箭爆发",
+    "description": "以四连发形式射击，每次连射的最后一发子弹会被替换为一枚追踪导弹。",
+    "value": "连发子弹数：+4；连发间隔：+0.17；爆炸范围：1.29",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_8.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_8_shape.png"
+  },
+  {
+    "id": "weapon1_rare_9",
+    "name": "能量汇流",
+    "description": "受到你引燃、触电或酸蚀持续伤害的目标会为你提供“能量”层数。按住换弹键可将所有“能量”月层数转化为溢出弹药。",
+    "value": "每层弹药返还量：0.89",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_9.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_9_shape.png"
+  },
+  {
+    "id": "weapon1_rare_10",
+    "name": "腐蚀等离子",
+    "description": "子弹施加强酸",
+    "value": "元素：+2.06",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_10.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_10_shape.png"
+  },
+  {
+    "id": "weapon1_rare_11",
+    "name": "蓄能护盾",
+    "description": "蓄力期间受到的伤害减少，蓄力时间增加。",
+    "value": "充能时间：+0.31；伤害抗性：60%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_11.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_11_shape.png"
+  },
+  {
+    "id": "weapon1_rare_12",
+    "name": "衰败能量",
+    "description": "子弹施加衰败",
+    "value": "元素：+2.01",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_12.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_12_shape.png"
+  },
+  {
+    "id": "weapon1_rare_13",
+    "name": "超频射击机制",
+    "description": "射速加快，散布范围增大。",
+    "value": "水平散布：+4.57；垂直散布：+4.57；射速：+12%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_rare_13.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_rare_13_shape.png"
+  },
+  {
+    "id": "weapon1_standard_1",
+    "name": "双叠弹匣",
+    "description": "弹匣容量增加，但略微降低伤害。",
+    "value": "弹匣容量：+31%；伤害：-9%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_standard_1.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_standard_1_shape.png"
+  },
+  {
+    "id": "weapon1_standard_2",
+    "name": "大弹匣",
+    "description": "弹匣容量大幅增加。",
+    "value": "弹匣容量：+110%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_standard_2.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_standard_2_shape.png"
+  },
+  {
+    "id": "weapon1_standard_3",
+    "name": "弹跳反射",
+    "description": "子弹会反弹。",
+    "value": "可弹跳次数：+1",
+    "icon": "images/modifier/weapon/weapon1/weapon1_standard_3.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_standard_3_shape.png"
+  },
+  {
+    "id": "weapon1_standard_4",
+    "name": "扩容弹匣",
+    "description": "弹匣容量增加",
+    "value": "弹匣容量：+4.58",
+    "icon": "images/modifier/weapon/weapon1/weapon1_standard_4.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_standard_4_shape.png"
+  },
+  {
+    "id": "weapon1_standard_5",
+    "name": "稳定模块",
+    "description": "瞄准时后坐力降低。",
+    "value": "瞄准后坐力：-31%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_standard_5.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_standard_5_shape.png"
+  },
+  {
+    "id": "weapon1_standard_6",
+    "name": "精准射击",
+    "description": "降低射速，提高精准度。",
+    "value": "水平散布：-70%；垂直散布：-70%；射速：-21%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_standard_6.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_standard_6_shape.png"
+  },
+  {
+    "id": "weapon1_standard_7",
+    "name": "紧凑弹匣",
+    "description": "换弹速度加快，但弹匣容量减少。",
+    "value": "弹匣容量：-7.13；换弹速度：+30%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_standard_7.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_standard_7_shape.png"
+  },
+  {
+    "id": "weapon1_standard_8",
+    "name": "聚焦透镜",
+    "description": "射程增加",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon1/weapon1_standard_8.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_standard_8_shape.png"
+  },
+  {
+    "id": "weapon1_standard_9",
+    "name": "肾上腺素装填",
+    "description": "击杀目标后的短时间内换弹速度加快。",
+    "value": "换弹速度：+19%",
+    "icon": "images/modifier/weapon/weapon1/weapon1_standard_9.png",
+    "shape": "images/modifier/weapon/weapon1/weapon1_standard_9_shape.png"
+  },
+  
+  
+  {
+    "id": "weapon2_exotic_1",
+    "name": "杀虫剂",
+    "description": "按住瞄准键发射火焰喷射器。",
+    "value": "伤害：24.86；火焰：14.5；射距：6.81；效果范围：1",
+    "icon": "images/modifier/weapon/weapon2/weapon2_exotic_1.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_exotic_1_shape.png"
+  },
+  {
+    "id": "weapon2_exotic_2",
+    "name": "献祭者",
+    "description": "对目标施加火焰时，也会对自己施加火焰。当你引燃自己时，弹匣会立即装满，并且你会获得持续9秒的献祭。处于献祭状态时，你获得无限弹药，且子弹伤害提升并施加火焰。",
+    "value": "自身火焰：0.14",
+    "icon": "images/modifier/weapon/weapon2/weapon2_exotic_2.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_exotic_2_shape.png"
+  },
+  {
+    "id": "weapon2_exotic_3",
+    "name": "蓄力连击",
+    "description": "按住换弹键可充能子弹，松开按键可将所有充能子弹以高速连发形式射出。",
+    "value": "充能速度：13.37；射速：+347%；弹匣容量：+4.86",
+    "icon": "images/modifier/weapon/weapon2/weapon2_exotic_3.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_exotic_3_shape.png"
+  },
+  {
+    "id": "weapon2_exotic_4",
+    "name": "超绝枪感",
+    "description": "每次开火会将你向后推。弹药越少，后坐力越强。",
+    "value": "力：46.24",
+    "icon": "images/modifier/weapon/weapon2/weapon2_exotic_4.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_exotic_4_shape.png"
+  },
+  {
+    "id": "weapon2_epic_1",
+    "name": "先导充能",
+    "description": "子弹在反弹前会施加电击效果。",
+    "value": "元素：+0.67",
+    "icon": "images/modifier/weapon/weapon2/weapon2_epic_1.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_epic_1_shape.png"
+  },
+  {
+    "id": "weapon2_epic_2",
+    "name": "弹壳扩容",
+    "description": "每次射击额外增加一发弹丸。此升级效果可叠加。",
+    "value": "单次发射子弹数：+1；伤害：-12%；可叠加",
+    "icon": "images/modifier/weapon/weapon2/weapon2_epic_2.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_epic_2_shape.png"
+  },
+  {
+    "id": "weapon2_epic_3",
+    "name": "强力弹跳",
+    "description": "子弹可额外反弹一次。每次弹跳后伤害增加。",
+    "value": "可弹跳次数：+1；弹跳伤害增益：+4.44",
+    "icon": "images/modifier/weapon/weapon2/weapon2_epic_3.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_epic_3_shape.png"
+  },
+  {
+    "id": "weapon2_epic_4",
+    "name": "我心燃烧",
+    "description": "手持此武器且处于引燃状态时，移动速度提升。",
+    "value": "速度：+53%",
+    "icon": "images/modifier/weapon/weapon2/weapon2_epic_4.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_epic_4_shape.png"
+  },
+  {
+    "id": "weapon2_epic_5",
+    "name": "摩擦补偿器",
+    "description": "子弹反弹时重置伤害衰减。",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon2/weapon2_epic_5.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_epic_5_shape.png"
+  },
+  {
+    "id": "weapon2_epic_6",
+    "name": "活性附着",
+    "description": "子弹总会对敌人的核心施加火焰。",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon2/weapon2_epic_6.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_epic_6_shape.png"
+  },
+  {
+    "id": "weapon2_epic_7",
+    "name": "燃烧瓶",
+    "description": "按住换弹键可蓄力发射一颗引燃敌人的手雷。",
+    "value": "充能时间：+0.77；爆炸范围：3.11",
+    "icon": "images/modifier/weapon/weapon2/weapon2_epic_7.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_epic_7_shape.png"
+  },
+  {
+    "id": "weapon2_epic_8",
+    "name": "美味核心",
+    "description": "消灭核心会为弹匣回复弹药。",
+    "value": "弹药返还量：3",
+    "icon": "images/modifier/weapon/weapon2/weapon2_epic_8.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_epic_8_shape.png"
+  },
+  {
+    "id": "weapon2_epic_9",
+    "name": "高温忍耐",
+    "description": "每当你获得献祭时，会为弹匣增加额外弹药。",
+    "value": "弹药返还量：10",
+    "icon": "images/modifier/weapon/weapon2/weapon2_epic_9.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_epic_9_shape.png"
+  },
+  {
+    "id": "weapon2_rare_1",
+    "name": "双响",
+    "description": "以二连发形式射击。",
+    "value": "连发子弹数：+2；连发间隔：+0.32；射速：+89%",
+    "icon": "images/modifier/weapon/weapon2/weapon2_rare_1.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_rare_1_shape.png"
+  },
+  {
+    "id": "weapon2_rare_2",
+    "name": "双管霰弹枪",
+    "description": "每次连续发射两枚子弹后需装填。伤害与换弹速度增加，散布减小。",
+    "value": "弹匣容量：2；伤害：+51%；水平散布：-11%；垂直散布：-11%；换弹速度：+105%",
+    "icon": "images/modifier/weapon/weapon2/weapon2_rare_2.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_rare_2_shape.png"
+  },
+  {
+    "id": "weapon2_rare_3",
+    "name": "幽影弹",
+    "description": "如果子弹尚未发生反弹，则可以穿透目标。",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon2/weapon2_rare_3.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_rare_3_shape.png"
+  },
+  {
+    "id": "weapon2_rare_4",
+    "name": "滑铲射击",
+    "description": "滑铲后，增加你的下一次射击造成的伤害。",
+    "value": "滑铲伤害增益：+269%",
+    "icon": "images/modifier/weapon/weapon2/weapon2_rare_4.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_rare_4_shape.png"
+  },
+  {
+    "id": "weapon2_rare_5",
+    "name": "灼热装填",
+    "description": "被引燃时，换弹速度加快。",
+    "value": "引燃换弹速度：+89%",
+    "icon": "images/modifier/weapon/weapon2/weapon2_rare_5.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_rare_5_shape.png"
+  },
+  {
+    "id": "weapon2_rare_6",
+    "name": "烫手山芋",
+    "description": "当你被引燃时，射速加快。",
+    "value": "引燃时射速：+23%",
+    "icon": "images/modifier/weapon/weapon2/weapon2_rare_6.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_rare_6_shape.png"
+  },
+  {
+    "id": "weapon2_rare_7",
+    "name": "猛烈开火",
+    "description": "射速加快，散布范围增大。弹匣容量大幅增加。",
+    "value": "射速：+119%；水平散布：+7.25；垂直散布：+7.25；弹匣容量：+7.77",
+    "icon": "images/modifier/weapon/weapon2/weapon2_rare_7.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_rare_7_shape.png"
+  },
+  {
+    "id": "weapon2_rare_8",
+    "name": "简单解法",
+    "description": "换弹速度加快，但弹匣容量减少。",
+    "value": "换弹速度：+146%；弹匣容量：-45%",
+    "icon": "images/modifier/weapon/weapon2/weapon2_rare_8.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_rare_8_shape.png"
+  },
+  {
+    "id": "weapon2_rare_9",
+    "name": "聚焦散布",
+    "description": "子弹散布更密集，但造成的伤害降低。",
+    "value": "水平散布：-42%；垂直散布：-42%；伤害：-17%",
+    "icon": "images/modifier/weapon/weapon2/weapon2_rare_9.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_rare_9_shape.png"
+  },
+  {
+    "id": "weapon2_rare_10",
+    "name": "重型",
+    "description": "降低射速，增加伤害并施加更多火焰。",
+    "value": "射速：-23%；伤害：+106%；元素：+7%；水平后坐力：+13%；垂直后坐力：+21%",
+    "icon": "images/modifier/weapon/weapon2/weapon2_rare_10.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_rare_10_shape.png"
+  },
+  {
+    "id": "weapon2_rare_11",
+    "name": "野火",
+    "description": "子弹施加的火焰效果增加，但大幅增加散布范围。",
+    "value": "元素：+4.07；水平散布：+22.73",
+    "icon": "images/modifier/weapon/weapon2/weapon2_rare_11.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_rare_11_shape.png"
+  },
+  {
+    "id": "weapon2_standard_1",
+    "name": "弹匣扩容",
+    "description": "弹匣容量增加。",
+    "value": "弹匣容量：1.56",
+    "icon": "images/modifier/weapon/weapon2/weapon2_standard_1.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_standard_1_shape.png"
+  },
+  {
+    "id": "weapon2_standard_2",
+    "name": "强化涂层",
+    "description": "子弹可额外反弹一次。",
+    "value": "可弹跳次数：+1",
+    "icon": "images/modifier/weapon/weapon2/weapon2_standard_2.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_standard_2_shape.png"
+  },
+  {
+    "id": "weapon2_standard_3",
+    "name": "熔点",
+    "description": "子弹施加更多火焰。",
+    "value": "元素：+1.5",
+    "icon": "images/modifier/weapon/weapon2/weapon2_standard_3.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_standard_3_shape.png"
+  },
+  {
+    "id": "weapon2_standard_4",
+    "name": "稳定握把",
+    "description": "后坐力减小。",
+    "value": "水平后坐力：-19%；垂直后坐力：-18%",
+    "icon": "images/modifier/weapon/weapon2/weapon2_standard_4.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_standard_4_shape.png"
+  },
+  {
+    "id": "weapon2_standard_5",
+    "name": "稳定瞄准",
+    "description": "瞄准时射程增加。",
+    "value": "射距：+3.52",
+    "icon": "images/modifier/weapon/weapon2/weapon2_standard_5.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_standard_5_shape.png"
+  },
+  {
+    "id": "weapon2_standard_6",
+    "name": "超稳定瞄准",
+    "description": "瞄准时散布减小。",
+    "value": "散布：-14%",
+    "icon": "images/modifier/weapon/weapon2/weapon2_standard_6.png",
+    "shape": "images/modifier/weapon/weapon2/weapon2_standard_6_shape.png"
+  },
+
+  
+  {
+    "id": "weapon3_exotic_1",
+    "name": "弹药转换",
+    "description": "按住换弹键可消耗备用弹药，为当前装备的手雷充能。",
+    "value": "每秒弹药补充量：-63.27；每秒充能量：+5.73",
+    "icon": "images/modifier/weapon/weapon3/weapon3_exotic_1.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_exotic_1_shape.png"
+  },
+  {
+    "id": "weapon3_exotic_2",
+    "name": "有丝分裂",
+    "description": "悬浮弹药会消耗弹药储备向下射出弹雨，造成相较平时更低的伤害。",
+    "value": "每弹丸概率：1.0%；弹药消耗：0.91；有丝分裂伤害：69.0%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_exotic_2.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_exotic_2_shape.png"
+  },
+  {
+    "id": "weapon3_exotic_3",
+    "name": "爆炸弹丸",
+    "description": "弹丸会爆炸，但降低伤害。",
+    "value": "伤害：-48%；爆炸范围：+0.54",
+    "icon": "images/modifier/weapon/weapon3/weapon3_exotic_3.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_exotic_3_shape.png"
+  },
+  {
+    "id": "weapon3_exotic_4",
+    "name": "繁殖季",
+    "description": "开火时，附近装备蜂群发射器的玩家会为你生成额外弹丸。",
+    "value": "效果范围：16.81；间隔：21.33",
+    "icon": "images/modifier/weapon/weapon3/weapon3_exotic_4.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_exotic_4_shape.png"
+  },
+  {
+    "id": "weapon3_epic_1",
+    "name": "交叉授粉",
+    "description": "弹丸可追踪玩家并为其回复生命值。",
+    "value": "治疗：+1.66",
+    "icon": "images/modifier/weapon/weapon3/weapon3_epic_1.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_epic_1_shape.png"
+  },
+  {
+    "id": "weapon3_epic_2",
+    "name": "作物粉碎机",
+    "description": "在空中时，自动在前方生成蜂群弹丸。滞空时间越长，弹丸射速越快。此效果在未装备蜂群发射器时也可触发。",
+    "value": "加快射速：0.8；最大射速：+84%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_epic_2.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_epic_2_shape.png"
+  },
+  {
+    "id": "weapon3_epic_3",
+    "name": "便携式太阳能阵列",
+    "description": "按住换弹键消耗备用弹药以恢复生命值。",
+    "value": "每秒弹药补充量：-68.08；生命值：+0.06",
+    "icon": "images/modifier/weapon/weapon3/weapon3_epic_3.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_epic_3_shape.png"
+  },
+  {
+    "id": "weapon3_epic_4",
+    "name": "应急超载",
+    "description": "按住换弹键蓄力发动高威力近战攻击。每消耗一发弹丸都会扩大攻击范围。",
+    "value": "每秒增加范围：+0.77；最大范围：1.42",
+    "icon": "images/modifier/weapon/weapon3/weapon3_epic_4.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_epic_4_shape.png"
+  },
+  {
+    "id": "weapon3_epic_5",
+    "name": "散射爆发",
+    "description": "一次性发射所有弹丸，减少弹匣容量。",
+    "value": "弹匣容量：-49%；单次发射子弹数：+30",
+    "icon": "images/modifier/weapon/weapon3/weapon3_epic_5.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_epic_5_shape.png"
+  },
+  {
+    "id": "weapon3_epic_6",
+    "name": "游走活力",
+    "description": "你可以在冲刺和滑铲时正常开火",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon3/weapon3_epic_6.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_epic_6_shape.png"
+  },
+  {
+    "id": "weapon3_epic_7",
+    "name": "能量调配",
+    "description": "换弹速度降低，但换弹期间的移动速度大幅提升。",
+    "value": "速度：+10.32；换弹速度：-18%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_epic_7.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_epic_7_shape.png"
+  },
+  {
+    "id": "weapon3_epic_8",
+    "name": "蓄势待发",
+    "description": "弹丸悬浮时间越长，造成的伤害越高。",
+    "value": "持续时间：5.75；最大伤害：+65%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_epic_8.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_epic_8_shape.png"
+  },
+  {
+    "id": "weapon3_epic_9",
+    "name": "蜂巢扩张",
+    "description": "每有一个与此升级项相邻的不同种类升级项，都会增加弹匣容量。",
+    "value": "每升级项弹药增益：+6.85",
+    "icon": "images/modifier/weapon/weapon3/weapon3_epic_9.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_epic_9_shape.png"
+  },
+  {
+    "id": "weapon3_epic_10",
+    "name": "远程操控",
+    "description": "悬浮弹丸会跟随准星，但飞行速度变慢。",
+    "value": "子弹速度：-69%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_epic_10.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_epic_10_shape.png"
+  },
+  {
+    "id": "weapon3_rare_1",
+    "name": "大口径弹丸",
+    "description": "发射射速较慢、伤害更高的弹丸，会自动俯冲向目标。",
+    "value": "伤害：+81%；弹匣容量：+11%；射速：-66%；水平散布：-70%；垂直散布：-70%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_rare_1.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_rare_1_shape.png"
+  },
+  {
+    "id": "weapon3_rare_2",
+    "name": "大气充能器",
+    "description": "当蜂群悬浮时，弹药会自动回复。",
+    "value": "每秒弹药补充量：+4.45",
+    "icon": "images/modifier/weapon/weapon3/weapon3_rare_2.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_rare_2_shape.png"
+  },
+  {
+    "id": "weapon3_rare_3",
+    "name": "带电弹丸",
+    "description": "弹丸施加电击。",
+    "value": "元素：+4.12",
+    "icon": "images/modifier/weapon/weapon3/weapon3_rare_3.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_rare_3_shape.png"
+  },
+  {
+    "id": "weapon3_rare_4",
+    "name": "快速释放",
+    "description": "在弹匣打空前释放蜂群可获得爆发性移速加成。",
+    "value": "速度：+4.41；持续时间：1.19",
+    "icon": "images/modifier/weapon/weapon3/weapon3_rare_4.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_rare_4_shape.png"
+  },
+  {
+    "id": "weapon3_rare_5",
+    "name": "洒水器",
+    "description": "射程与散布范围均增加。",
+    "value": "射距：+98%；水平散布：+96%；垂直散布：+96%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_rare_5.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_rare_5_shape.png"
+  },
+  {
+    "id": "weapon3_rare_6",
+    "name": "自动蜂群",
+    "description": "弹丸更精准，并会自动追踪目标。",
+    "value": "单次发射子弹数：1；水平散布：-80%；垂直散布：-80%；射速：-33%；子弹速度：+2092%；水平后坐力：-54%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_rare_6.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_rare_6_shape.png"
+  },
+  {
+    "id": "weapon3_rare_7",
+    "name": "趁手工具",
+    "description": "使用其他武器造成伤害时可生成更多蜂群枪弹药。弹药上限增加。",
+    "value": "弹药上限：+28%；效率：+22%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_rare_7.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_rare_7_shape.png"
+  },
+  {
+    "id": "weapon3_rare_8",
+    "name": "远程特化",
+    "description": "射程与精准度增加，但弹匣容量减少。",
+    "value": "射距：+94%；水平散布：-19%；垂直散布：-19%；弹匣容量：-38%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_rare_8.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_rare_8_shape.png"
+  },
+  {
+    "id": "weapon3_rare_9",
+    "name": "速射扩容",
+    "description": "每次射击发射6发弹丸。弹匣容量与弹药上限增加。",
+    "value": "单次发射子弹数：+4；射速：-79%；弹匣容量：+24；弹药上限：+27.37",
+    "icon": "images/modifier/weapon/weapon3/weapon3_rare_9.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_rare_9_shape.png"
+  },
+  {
+    "id": "weapon3_rare_10",
+    "name": "速攻火力",
+    "description": "开火时短暂提升移速。",
+    "value": "速度：+1.84",
+    "icon": "images/modifier/weapon/weapon3/weapon3_rare_10.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_rare_10_shape.png"
+  },
+  {
+    "id": "weapon3_rare_11",
+    "name": "静态换弹",
+    "description": "使用任意武器令目标触电后，提升蜂群发射器的换弹速度。",
+    "value": "换弹速度：-33%？",
+    "icon": "images/modifier/weapon/weapon3/weapon3_rare_11.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_rare_11_shape.png"
+  },
+  {
+    "id": "weapon3_standard_1",
+    "name": "大型储能器",
+    "description": "弹匣容量增加。",
+    "value": "弹匣容量：+7.32",
+    "icon": "images/modifier/weapon/weapon3/weapon3_standard_1.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_standard_1_shape.png"
+  },
+  {
+    "id": "weapon3_standard_2",
+    "name": "快速授粉",
+    "description": "提升射速，降低精准度。",
+    "value": "射速：+29%；水平散布：+71%；垂直散布：+71%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_standard_2.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_standard_2_shape.png"
+  },
+  {
+    "id": "weapon3_standard_3",
+    "name": "稳扎稳打",
+    "description": "散布减小。",
+    "value": "水平散布：-23%；垂直散布：-23%",
+    "icon": "images/modifier/weapon/weapon3/weapon3_standard_3.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_standard_3_shape.png"
+  },
+  {
+    "id": "weapon3_standard_4",
+    "name": "精密瞄准",
+    "description": "瞄准时射程增加。",
+    "value": "射距：+11.89",
+    "icon": "images/modifier/weapon/weapon3/weapon3_standard_4.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_standard_4_shape.png"
+  },
+  {
+    "id": "weapon3_standard_5",
+    "name": "蜂群储备",
+    "description": "弹药储备增加。",
+    "value": "弹药上限：+51.7",
+    "icon": "images/modifier/weapon/weapon3/weapon3_standard_5.png",
+    "shape": "images/modifier/weapon/weapon3/weapon3_standard_5_shape.png"
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": "weapon9_exotic_1",
+    "name": "伤害虹吸",
+    "description": "受伤时获得受伤累计量，受伤累计量会增加球球伤害。球球蓄能槽越高，发射球球时消耗的受伤累计量越少",
+    "value": "效率：4.0%；最大伤害：+477%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_exotic_1.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_exotic_1_shape.png"
+  },
+  {
+    "id": "weapon9_exotic_2",
+    "name": "洪流",
+    "description": "球球触及表面时，产生酸蚀波浪",
+    "value": "距离：31.42；射速：-57%；可弹跳次数：9；弹药上限：-75%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_exotic_2.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_exotic_2_shape.png"
+  },
+  {
+    "id": "weapon9_exotic_3",
+    "name": "球球虹吸",
+    "description": "按住换弹键可消耗手雷充能，增大下一发球球的爆炸范围",
+    "value": "每秒充能量：-13.27；爆炸范围：+0.28；最大范围：0.26",
+    "icon": "images/modifier/weapon/weapon9/weapon9_exotic_3.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_exotic_3_shape.png"
+  },
+  {
+    "id": "weapon9_exotic_4",
+    "name": "高压锅",
+    "description": "按住扳机蓄力，增大球球的爆炸范围。蓄力过久会炸自己",
+    "value": "充能时间：+0。21；子弹大小：+0.54",
+    "icon": "images/modifier/weapon/weapon9/weapon9_exotic_4.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_exotic_4_shape.png"
+  },
+  {
+    "id": "weapon9_epic_1",
+    "name": "全光谱",
+    "description": "每有一个与此升级项相邻的不同种类升级项，都会提高属性（绿：球球蓄能槽；蓝：换弹速度；紫：射速；黄：伤害）。",
+    "value": "效率：137%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_epic_1.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_epic_1_shape.png"
+  },
+  {
+    "id": "weapon9_epic_2",
+    "name": "球球气球",
+    "description": "球球属性更低，但是爆炸会产生一个酸液池",
+    "value": "持续时间：0.8；范围：0.91；伤害：-64%；爆炸范围：-30%；射速：-23%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_epic_2.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_epic_2_shape.png"
+  },
+  {
+    "id": "weapon9_epic_3",
+    "name": "球球效应",
+    "description": "球球有几率施加其他元素，并且受影响的球球会对敌人完全施加元素效果",
+    "value": "概率：21%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_epic_3.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_epic_3_shape.png"
+  },
+  {
+    "id": "weapon9_epic_4",
+    "name": "球球装填",
+    "description": "未装备时，球球枪每隔一段时间就会自动装弹。球球蓄能槽会增加该装弹速度",
+    "value": "间隔：1.95",
+    "icon": "images/modifier/weapon/weapon9/weapon9_epic_4.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_epic_4_shape.png"
+  },
+  {
+    "id": "weapon9_epic_5",
+    "name": "拖鞋",
+    "description": "手持球球枪时，增加移速。球球蓄能槽会提高移速值。",
+    "value": "弹匣容量：-49%；单次发射子弹数：+30",
+    "icon": "images/modifier/weapon/weapon9/weapon9_epic_5.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_epic_5_shape.png"
+  },
+  {
+    "id": "weapon9_epic_6",
+    "name": "三角",
+    "description": "一次攻击以三角形的形状射出3个球球，射速与爆炸范围下降。",
+    "value": "水平散布：+7.67；垂直散布：+7.67；散布形状：三角形；单次发射子弹数：3；射速：-27%；爆炸范围：-18%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_epic_6.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_epic_6_shape.png"
+  },
+  {
+    "id": "weapon9_rare_1",
+    "name": "快球",
+    "description": "射速更快，但是伤害和爆炸范围降低",
+    "value": "射速：+35%；子弹速度：+22%；伤害：-27%；元素：-29%；爆炸范围：-36%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_1.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_1_shape.png"
+  },
+  {
+    "id": "weapon9_rare_2",
+    "name": "球球弹丸",
+    "description": "球球蓄能槽会提高弹匣容量",
+    "value": "每层弹药返还量：+0.18",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_2.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_2_shape.png"
+  },
+  {
+    "id": "weapon9_rare_3",
+    "name": "射速转化",
+    "description": "降低射速，提高球球蓄能槽",
+    "value": "射速：-23%；球球蓄能槽：+10",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_3.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_3_shape.png"
+  },
+  {
+    "id": "weapon9_rare_4",
+    "name": "球球兴奋剂",
+    "description": "增加换弹后第一发的伤害。",
+    "value": "伤害：+86%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_4.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_4_shape.png"
+  },
+  {
+    "id": "weapon9_rare_5",
+    "name": "换弹转化",
+    "description": "降低换弹速度，提高球球蓄能槽",
+    "value": "换弹速度：-23%；球球蓄能槽：+10",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_5.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_5_shape.png"
+  },
+  {
+    "id": "weapon9_rare_6",
+    "name": "包装火药",
+    "description": "子弹速度更高，后坐力增大",
+    "value": "子弹速度：+30%；水平后坐力：+66%；垂直后坐力：+52%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_6.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_6_shape.png"
+  },
+  {
+    "id": "weapon9_rare_7",
+    "name": "重球",
+    "description": "伤害提高，但是下落更快",
+    "value": "子弹重力：+118%；伤害+21%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_7.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_7_shape.png"
+  },
+  {
+    "id": "weapon9_rare_8",
+    "name": "自我抗性",
+    "description": "用球球伤害自己时，提供短时间伤害抗性，球球蓄能槽会增大效果（不知道提高抗性还是时间）",
+    "value": "伤害抗性：34%；持续时间：0.4",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_8.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_8_shape.png"
+  },
+  {
+    "id": "weapon9_rare_9",
+    "name": "大小轻重",
+    "description": "射击时球球大小随机，最大值随着球球蓄能槽提高",
+    "value": "最大范围：3.03",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_9.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_9_shape.png"
+  },
+  {
+    "id": "weapon9_rare_10",
+    "name": "表面爆炸",
+    "description": "球球撞击表面立刻爆炸",
+    "value": "可弹跳次数：0； 球球蓄能槽：+2",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_10.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_10_shape.png"
+  },
+  {
+    "id": "weapon9_rare_11",
+    "name": "唯一",
+    "description": "弹匣上限为1，爆炸范围与换弹速度增加",
+    "value": "弹匣容量：1；爆炸范围：+92%；换弹速度：+30%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_11.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_11_shape.png"
+  },
+  {
+    "id": "weapon9_rare_12",
+    "name": "长波",
+    "description": "使用洪流时，洪流距离增加",
+    "value": "距离：+25%",
+    "icon": "images/modifier/weapon/weapon9/weapon9_rare_12.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_rare_12_shape.png"
+  },
+  {
+    "id": "weapon9_standard_1",
+    "name": "蓄能",
+    "description": "提高蓄能槽",
+    "value": "球球蓄能槽：+8；可叠加",
+    "icon": "images/modifier/weapon/weapon9/weapon9_standard_1.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_standard_1_shape.png"
+  },
+  {
+    "id": "weapon9_standard_2",
+    "name": "储备吞噬",
+    "description": "降低弹药储备，提高球球蓄能槽。",
+    "value": "弹药上限：-45%；球球蓄能槽：+12",
+    "icon": "images/modifier/weapon/weapon9/weapon9_standard_2.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_standard_2_shape.png"
+  },
+  {
+    "id": "weapon9_standard_3",
+    "name": "缩小弹匣",
+    "description": "降低弹匣容量，提高球球蓄能槽。",
+    "value": "弹匣容量：-35%；球球蓄能槽：+14",
+    "icon": "images/modifier/weapon/weapon9/weapon9_standard_3.png",
+    "shape": "images/modifier/weapon/weapon9/weapon9_standard_3_shape.png"
+  },
+
+
+  {
+    "id": "weapon10_exotic_1",
+    "name": "偏转器",
+    "description": "攻击时偏转敌人飞弹",
+    "value": "范围：2.73",
+    "icon": "images/modifier/weapon/weapon10/weapon10_exotic_1.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_exotic_1_shape.png"
+  },
+  {
+    "id": "weapon10_exotic_2",
+    "name": "营养核心",
+    "description": "击杀核心时有概率掉落生命球",
+    "value": "生命值：+5.75；概率：+7%",
+    "icon": "images/modifier/weapon/weapon10/weapon10_exotic_2.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_exotic_2_shape.png"
+  },
+  {
+    "id": "weapon10_exotic_3",
+    "name": "拉近",
+    "description": "攻击时拉近附近的敌人",
+    "value": "力：10；射距：8",
+    "icon": "images/modifier/weapon/weapon10/weapon10_exotic_3.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_exotic_3_shape.png"
+  },
+  {
+    "id": "weapon10_exotic_4",
+    "name": "怒火",
+    "description": "击杀敌人获得怒火，怒火会增加移速与伤害（换弹与停止攻击会清空怒火层数）",
+    "value": "击杀层数：+0.68；每层速度：+0.33；每层伤害：+0.35",
+    "icon": "images/modifier/weapon/weapon10/weapon10_exotic_4.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_exotic_4_shape.png"
+  },
+  {
+    "id": "weapon10_epic_1",
+    "name": "大型偏转器",
+    "description": "增大偏转器的大小，但是降低攻击时移速",
+    "value": "范围：9.39；速度：-32%",
+    "icon": "images/modifier/weapon/weapon10/weapon10_epic_1.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_epic_1_shape.png"
+  },
+  {
+    "id": "weapon10_epic_2",
+    "name": "鲜血闪电",
+    "description": "每有一层鲜血，击杀敌人时触发闪电链的几率更大",
+    "value": "每层几率：+1%",
+    "icon": "images/modifier/weapon/weapon10/weapon10_epic_2.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_epic_2_shape.png"
+  },
+  {
+    "id": "weapon10_epic_3",
+    "name": "鲜血冲刺",
+    "description": "到达阈值后，消耗所有鲜血层数并获得移动技能充能",
+    "value": "充能：+10.52；阈值：+8.33",
+    "icon": "images/modifier/weapon/weapon10/weapon10_epic_3.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_epic_3_shape.png"
+  },
+  {
+    "id": "weapon10_epic_4",
+    "name": "鲜血跳跃",
+    "description": "每有一层鲜血，跳跃高度增加",
+    "value": "力：+0.43",
+    "icon": "images/modifier/weapon/weapon10/weapon10_epic_4.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_epic_4_shape.png"
+  },
+  {
+    "id": "weapon10_epic_5",
+    "name": "震慑切割",
+    "description": "玩家触电时，增加射速",
+    "value": "射速：+27%；持续时间：3.6",
+    "icon": "images/modifier/weapon/weapon10/weapon10_epic_5.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_epic_5_shape.png"
+  },
+  {
+    "id": "weapon10_epic_6",
+    "name": "治愈割裂",
+    "description": "攻击时周期性向附近玩家发射治疗波",
+    "value": "治疗：+2.7；效果范围：7.12；间隔：2.17",
+    "icon": "images/modifier/weapon/weapon10/weapon10_epic_6.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_epic_6_shape.png"
+  },
+  {
+    "id": "weapon10_epic_7",
+    "name": "重型杀戮",
+    "description": "击杀会为重型武器返还弹药（不知道哪些武器算重型武器）",
+    "value": "弹药效率：+0.19；可叠加",
+    "icon": "images/modifier/weapon/weapon10/weapon10_epic_7.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_epic_7_shape.png"
+  },
+  {
+    "id": "weapon10_epic_8",
+    "name": "过热系统",
+    "description": "施加火焰，时间越久效果越强",
+    "value": "元素：+1.67；过热速度：+0.15",
+    "icon": "images/modifier/weapon/weapon10/weapon10_epic_8.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_epic_8_shape.png"
+  },
+  {
+    "id": "weapon10_epic_9",
+    "name": "分享午餐",
+    "description": "营养核心也会为队友掉落生命球",
+    "value": "/",
+    "icon": "images/modifier/weapon/weapon10/weapon10_epic_9.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_epic_9_shape.png"
+  },
+  {
+    "id": "weapon10_rare_1",
+    "name": "鲜血伤害",
+    "description": "每有一层鲜血，伤害增加",
+    "value": "伤害：+0.18",
+    "icon": "images/modifier/weapon/weapon10/weapon10_rare_1.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_rare_1_shape.png"
+  },
+  {
+    "id": "weapon10_rare_2",
+    "name": "鲜血抵抗",
+    "description": "每有一层鲜血，伤害抗性增加",
+    "value": "伤害抗性：1%",
+    "icon": "images/modifier/weapon/weapon10/weapon10_rare_2.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_rare_2_shape.png"
+  },
+  {
+    "id": "weapon10_rare_3",
+    "name": "酸蚀切割",
+    "description": "玩家被酸蚀时，增加射距",
+    "value": "射距：+4.02；持续时间：4.35",
+    "icon": "images/modifier/weapon/weapon10/weapon10_rare_3.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_rare_3_shape.png"
+  },
+  {
+    "id": "weapon10_rare_4",
+    "name": "点燃切割",
+    "description": "玩家被引燃时，向弹匣中返还弹药",
+    "value": "弹药返还量：+7",
+    "icon": "images/modifier/weapon/weapon10/weapon10_rare_4.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_rare_4_shape.png"
+  },
+  {
+    "id": "weapon10_rare_5",
+    "name": "玻璃大炮",
+    "description": "攻击时移速提速，受到伤害增加",
+    "value": "受到伤害：+96%；速度：+114%",
+    "icon": "images/modifier/weapon/weapon10/weapon10_rare_5.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_rare_5_shape.png"
+  },
+  {
+    "id": "weapon10_rare_6",
+    "name": "贪婪",
+    "description": "弹匣容量与弹药储备增加，但是使用另一把武器时回复弹药减少",
+    "value": "弹匣容量：+40%；弹药上限：+115%；效率：-64%",
+    "icon": "images/modifier/weapon/weapon10/weapon10_rare_6.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_rare_6_shape.png"
+  },
+  {
+    "id": "weapon10_rare_7",
+    "name": "扩大范围",
+    "description": "扩大攻击范围",
+    "value": "范围：+40%",
+    "icon": "images/modifier/weapon/weapon10/weapon10_rare_7.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_rare_7_shape.png"
+  },
+  {
+    "id": "weapon10_standard_1",
+    "name": "鲜血堆叠",
+    "description": "击杀时获得更多鲜血层数",
+    "value": "鲜血层数获取：+35%",
+    "icon": "images/modifier/weapon/weapon10/weapon10_standard_1.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_standard_1_shape.png"
+  },
+  {
+    "id": "weapon10_standard_2",
+    "name": "鲜血上限",
+    "description": "提高鲜血层数上限",
+    "value": "鲜血层数上限：+12%",
+    "icon": "images/modifier/weapon/weapon10/weapon10_standard_2.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_standard_2_shape.png"
+  },
+  {
+    "id": "weapon10_standard_3",
+    "name": "切割弹匣",
+    "description": "弹匣容量增加",
+    "value": "弹匣容量：+8%",
+    "icon": "images/modifier/weapon/weapon10/weapon10_standard_3.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_standard_3_shape.png"
+  },
+  {
+    "id": "weapon10_standard_4",
+    "name": "切割射程",
+    "description": "射程增加",
+    "value": "射距：+0.59",
+    "icon": "images/modifier/weapon/weapon10/weapon10_standard_4.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_standard_4_shape.png"
+  },
+  {
+    "id": "weapon10_standard_5",
+    "name": "鲜血储备",
+    "description": "弹药储备增加。",
+    "value": "弹药上限：+26%",
+    "icon": "images/modifier/weapon/weapon10/weapon10_standard_5.png",
+    "shape": "images/modifier/weapon/weapon10/weapon10_standard_5_shape.png"
+  }
+]

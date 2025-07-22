@@ -1,0 +1,23 @@
+[
+  {
+    "id": "grenade1",
+    "name": "燃烧手雷",
+    "image": "images/grenade/grenade1.png",
+    "description": "对范围内的目标造成伤害并施加引燃",
+    "modifiers": ["grenade1_exotic_1", "grenade1_exotic_2", "grenade1_exotic_3", "grenade1_epic_1", "grenade1_epic_2", "grenade1_epic_3", "grenade1_epic_4", "grenade1_epic_5", "grenade1_epic_6", "grenade1_epic_7", "grenade1_rare_1", "grenade1_rare_2", "grenade1_rare_3", "grenade1_rare_4", "grenade1_rare_5", "grenade1_rare_6", "grenade1_rare_7", "grenade1_standard_1", "grenade1_standard_2", "grenade1_standard_3"]
+  },
+  {
+    "id": "grenade2",
+    "name": "电击手雷",
+    "image": "images/grenade/grenade2.png",
+    "description": "对范围内的目标造成伤害并施加触电",
+    "modifiers": ["grenade2_exotic_1", "grenade2_exotic_2", "grenade2_exotic_3", "grenade2_epic_1", "grenade2_epic_2", "grenade2_epic_3", "grenade2_epic_4", "grenade2_epic_5", "grenade2_epic_6", "grenade2_epic_7", "grenade2_epic_8", "grenade2_rare_1", "grenade2_rare_2", "grenade2_rare_3", "grenade2_rare_4", "grenade2_rare_5", "grenade2_rare_6", "grenade2_standard_1", "grenade2_standard_2", "grenade2_standard_3"]
+  },  
+  {
+    "id": "grenade3",
+    "name": "强酸手雷",
+    "image": "images/grenade/grenade3.png",
+    "description": "对范围内的目标造成伤害并施加酸蚀",
+    "modifiers": ["grenade3_exotic_1", "grenade3_exotic_2", "grenade3_exotic_3", "grenade3_epic_1", "grenade3_epic_2", "grenade3_epic_3", "grenade3_epic_4", "grenade3_epic_5", "grenade3_epic_6", "grenade3_epic_7", "grenade3_rare_1", "grenade3_rare_2", "grenade3_rare_3", "grenade3_rare_4", "grenade3_rare_5", "grenade3_rare_6", "grenade3_rare_7", "grenade3_standard_1", "grenade3_standard_2", "grenade3_standard_3"]
+  }
+]
