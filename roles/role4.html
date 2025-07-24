@@ -2,61 +2,123 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8" />
-  <title>飞翼天使</title>
+  <title>循环者</title>
   <style>
     body {
       font-family: sans-serif;
-      padding: 20px;
       max-width: 800px;
       margin: auto;
       background-color: #f9f9f9;
+      padding: 20px;
     }
     h1 {
       text-align: center;
-    }
-    .character-image {
-      display: block;
-      margin: 0 auto 20px;
-      max-width: 300px;
-    }
-    .section {
-      margin-bottom: 40px;
-    }
-    .skill {
-      display: flex;
-      align-items: flex-start;
-      gap: 16px;
       margin-bottom: 20px;
-      background: #fff;
-      padding: 10px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    .skill img {
-      width: 80px;
-      height: 80px;
-      object-fit: contain;
+    h2 {
+      margin-top: 40px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      text-align: center;  /* ← 添加这行 */
     }
-    .skill-info {
-      flex: 1;
+    .weapon-image {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .weapon-image img {
+      max-width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+    .description {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    h3 {
+      margin-top: 40px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
     }
     .modifiers {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-    .modifier {
-      width: 64px;
-      height: 64px;
-      background-color: #eee;
-      border-radius: 8px;
-      overflow: hidden;
-    }
-    .modifier img {
+      margin-top: 15px;
       width: 100%;
-      height: 100%;
-      object-fit: contain;
+      border-collapse: collapse;
     }
+
+    .modifier-header, .modifier-row {
+      display: grid;
+      grid-template-columns: 60px 140px 1fr 2fr 60px;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+      gap: 10px;
+    }
+
+    .modifier-header {
+      font-weight: bold;
+      background-color: #eee;
+      text-align: center;
+    }
+
+    .modifier-icon img, .modifier-shape img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .modifier-value span {
+      display: block;
+      line-height: 1.4;
+      color: #444;
+    }
+
+    .modifier-name {
+      font-weight: bold;
+    }
+
+    .character-image {
+      display: block;
+      margin: 0 auto 30px auto;
+      max-width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .skill {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .skill img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    }
+
+    .skill-info {
+      text-align: center;
+    }
+
+    .skill-info h3 {
+      margin: 5px 0;
+      font-size: 1.1em;
+    }
+
+    .skill-info p {
+      margin: 5px 0;
+      font-size: 0.95em;
+      color: #555;
+    }
+
   </style>
 </head>
 <body>
@@ -81,20 +143,64 @@
     </div>
   </div>
 
-  <div class="section">
-    <h2>配件</h2>
-    <div class="modifiers">
-      <div class="modifier">
-        <a href="../modifiers/attach1.html">
-          <img src="../images/modifier/attach1.png" alt="attach1" />
-        </a>
-      </div>
-      <div class="modifier">
-        <a href="../modifiers/attach2.html">
-          <img src="../images/modifier/attach2.png" alt="attach2" />
-        </a>
-      </div>
-    </div>
+  <h3>配件列表</h3>
+  <div class="modifiers" id="modifierList">
+
   </div>
+
+  <script>
+    const modifierIds = [
+      "role4_exotic_1", "role4_exotic_2", "role4_exotic_3", "role4_exotic_4",
+      "role4_epic_1", "role4_epic_2", "role4_epic_3", "role4_epic_4", "role4_epic_5",
+      "role4_epic_6", "role4_epic_7", "role4_epic_8", "role4_epic_9", "role4_epic_10",
+      "role4_epic_11",
+      "role4_rare_1", "role4_rare_2", "role4_rare_3", "role4_rare_4", "role4_rare_5",
+      "role4_rare_6", "role4_rare_7", "role4_rare_8", "role4_rare_9", "role4_rare_10",
+      "role4_rare_11", "role4_rare_12",
+      "role4_standard_1", "role4_standard_2", "role4_standard_3", "role4_standard_4",
+      "role4_standard_5"
+    ];
+
+    fetch('../data/modifiers.json')
+      .then(res => res.json())
+      .then(allMods => {
+        const modList = document.getElementById('modifierList');
+        
+        const header = document.createElement('div');
+        header.className = 'modifier-header';
+        header.innerHTML = `
+          <div>图标</div>
+          <div>名称</div>
+          <div>属性</div>
+          <div>描述</div>
+          <div>形状</div>
+        `;
+        modList.appendChild(header);
+
+        const matched = allMods.filter(m => modifierIds.includes(m.id));
+        matched.forEach(mod => {
+          const valueParts = mod.value.split('；').map(p => `<span>${p}</span>`).join('');
+
+          const row = document.createElement('div');
+          row.className = 'modifier-row';
+          row.innerHTML = `
+            <div class="modifier-icon"><img src="../${mod.icon}" alt="${mod.name}" /></div>
+            <div class="modifier-name">${mod.name}</div>
+            <div class="modifier-value">${valueParts}</div>
+            <div class="modifier-desc">${mod.description}</div>
+            <div class="modifier-shape"><img src="../${mod.shape}" alt="${mod.name} 形状" /></div>
+          `;
+          modList.appendChild(row);
+        });
+      });
+  </script>
+
+  <hr style="margin-top: 40px;">
+  <div style="text-align: center; margin-top: 10px;">
+    <a href="../index.html" style="text-decoration: none; font-size: 1em; color: #0066cc;">
+      ← 返回主页
+    </a>
+  </div>
+
 </body>
 </html>
