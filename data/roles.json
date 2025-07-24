@@ -15,7 +15,14 @@
         "image": "images/skill/role1.2.png"
       }
     ],
-    "modifiers": ["attach1", "attach2"]
+    "modifiers": ["role1_exotic_1", "role1_exotic_2", "role1_exotic_3", "role1_exotic_4",
+      "role1_epic_1", "role1_epic_2", "role1_epic_3", "role1_epic_4", "role1_epic_5",
+      "role1_epic_6", "role1_epic_7", "role1_epic_8", "role1_epic_9", "role1_epic_10",
+      "role1_rare_1", "role1_rare_2", "role1_rare_3", "role1_rare_4", "role1_rare_5",
+      "role1_rare_6", "role1_rare_7", "role1_rare_8", "role1_rare_9", "role1_rare_10",
+      "role1_rare_11", "role1_rare_12",
+      "role1_standard_1", "role1_standard_2", "role1_standard_3", "role1_standard_4",
+      "role1_standard_5", "role1_standard_6"]
   },
   {
     "id": "role2",
@@ -33,7 +40,15 @@
         "image": "images/skill/role2.2.png"
       }
     ],
-    "modifiers": ["attach2"]
+    "modifiers": ["role2_oddity_1",
+      "role2_exotic_1", "role2_exotic_2", "role2_exotic_3", "role2_exotic_4",
+      "role2_epic_1", "role2_epic_2", "role2_epic_3", "role2_epic_4", "role2_epic_5",
+      "role2_epic_6", "role2_epic_7",
+      "role2_rare_1", "role2_rare_2", "role2_rare_3", "role2_rare_4", "role2_rare_5",
+      "role2_rare_6", "role2_rare_7", "role2_rare_8", "role2_rare_9", "role2_rare_10",
+      "role2_rare_11", "role2_rare_12", "role2_rare_13",
+      "role2_standard_1", "role2_standard_2", "role2_standard_3", "role2_standard_4",
+      "role2_standard_5", "role2_standard_6", "role2_standard_7"]
   },
   {
     "id": "role3",
@@ -51,7 +66,15 @@
         "image": "images/skill/role3.2.png"
       }
     ],
-    "modifiers": ["attach2"]
+    "modifiers": ["role3_oddity_1",
+      "role3_exotic_1", "role3_exotic_2", "role3_exotic_3", "role3_exotic_4",
+      "role3_epic_1", "role3_epic_2", "role3_epic_3", "role3_epic_4", "role3_epic_5",
+      "role3_epic_6", "role3_epic_7", "role3_epic_8", "role3_epic_9", "role3_epic_10",
+      "role3_rare_1", "role3_rare_2", "role3_rare_3", "role3_rare_4", "role3_rare_5",
+      "role3_rare_6", "role3_rare_7", "role3_rare_8", "role3_rare_9", "role3_rare_10",
+      "role3_rare_11", "role3_rare_12",
+      "role3_standard_1", "role3_standard_2", "role3_standard_3", "role3_standard_4",
+      "role3_standard_5"]
   },
   {
     "id": "role4",
@@ -69,6 +92,14 @@
         "image": "images/skill/role4.2.png"
       }
     ],
-    "modifiers": ["attach2"]
+    "modifiers": ["role4_exotic_1", "role4_exotic_2", "role4_exotic_3", "role4_exotic_4",
+      "role4_epic_1", "role4_epic_2", "role4_epic_3", "role4_epic_4", "role4_epic_5",
+      "role4_epic_6", "role4_epic_7", "role4_epic_8", "role4_epic_9", "role4_epic_10",
+      "role4_epic_11",
+      "role4_rare_1", "role4_rare_2", "role4_rare_3", "role4_rare_4", "role4_rare_5",
+      "role4_rare_6", "role4_rare_7", "role4_rare_8", "role4_rare_9", "role4_rare_10",
+      "role4_rare_11", "role4_rare_12",
+      "role4_standard_1", "role4_standard_2", "role4_standard_3", "role4_standard_4",
+      "role4_standard_5"]
   }
 ]
