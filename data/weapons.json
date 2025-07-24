@@ -103,7 +103,13 @@
     "name": "三叉戟 S2",
     "image": "images/weapon/weapon8.png",
     "description": "每次射击发射三发子弹的大口径自动步枪",
-    "modifiers": ["attach1", "attach2"]
+    "modifiers": [ "weapon8_exotic_1", "weapon8_exotic_2", "weapon8_exotic_3", "weapon8_exotic_4",
+      "weapon8_epic_1", "weapon8_epic_2", "weapon8_epic_3", "weapon8_epic_4", "weapon8_epic_5",
+      "weapon8_epic_6", "weapon8_epic_7", "weapon8_epic_8", "weapon8_epic_9", "weapon8_epic_10",
+      "weapon8_rare_1", "weapon8_rare_2", "weapon8_rare_3", "weapon8_rare_4", "weapon8_rare_5",
+      "weapon8_rare_6", "weapon8_rare_7", "weapon8_rare_8", "weapon8_rare_9", "weapon8_rare_10",
+       "weapon8_rare_11", "weapon8_rare_12",
+      "weapon8_standard_1", "weapon8_standard_2", "weapon8_standard_3", "weapon8_standard_4"]
   },  
   {
     "id": "weapon9",
