@@ -3393,5 +3393,521 @@
     "value": "击退力：+6.74",
     "icon": "images/modifier/role/role2/role2_standard_7.png",
     "shape": "images/modifier/role/role2/role2_standard_7_shape.png"
+  },
+
+
+  {
+    "id": "role3_oddity_1",
+    "name": "天旋地转",
+    "description": "是不是感觉有点头晕目眩？",
+    "value": "力：0；初始推力：0；喷气背包持续时间：+300%",
+    "icon": "images/modifier/role/role3/role3_oddity_1.png",
+    "shape": "images/modifier/role/role3/role3_oddity_1_shape.png"
+  },
+  {
+    "id": "role3_exotic_1",
+    "name": "丛林爬架",
+    "description": "可同时部署最多两根抓钩杆。",
+    "value": "最大在场杆数：+1；回复速度：-2%；充能：+1",
+    "icon": "images/modifier/role/role3/role3_exotic_1.png",
+    "shape": "images/modifier/role/role3/role3_exotic_1_shape.png"
+  },
+  {
+    "id": "role3_exotic_2",
+    "name": "喷射烈焰",
+    "description": "你的喷气背包会在下方生成一道火焰尾迹，引燃所有途经目标。",
+    "value": "火焰：26.72;范围：3.22;距离：8.75",
+    "icon": "images/modifier/role/role3/role3_exotic_2.png",
+    "shape": "images/modifier/role/role3/role3_exotic_2_shape.png"
+  },
+  {
+    "id": "role3_exotic_3",
+    "name": "蜂巢攻击",
+    "description": "首次在抓钩杆上发动近战攻击时，将投掷出一个蜂巢，命中时引发一场蜜蜂爆炸。",
+    "value": "爆炸范围：10.28",
+    "icon": "images/modifier/role/role3/role3_exotic_3.png",
+    "shape": "images/modifier/role/role3/role3_exotic_3_shape.png"
+  },
+  {
+    "id": "role3_exotic_4",
+    "name": "随行抓钩",
+    "description": "将你的抓钩杆附着在一个玩家身上，将其变为一个抓钩节点。",
+    "value": "/",
+    "icon": "images/modifier/role/role3/role3_exotic_4.png",
+    "shape": "images/modifier/role/role3/role3_exotic_4_shape.png"
+  },
+  {
+    "id": "role3_epic_1",
+    "name": "圆顶化",
+    "description": "你的护盾投射器现在呈圆顶形态。",
+    "value": "/",
+    "icon": "images/modifier/role/role3/role3_epic_1.png",
+    "shape": "images/modifier/role/role3/role3_epic_1_shape.png"
+  },
+  {
+    "id": "role3_epic_2",
+    "name": "坚光涂层",
+    "description": "你的护盾投射器会对作用范围内的目标施加指定元素，但冷却时间增加。",
+    "value": "元素：火焰/强酸/电击；回复速度：-38%",
+    "icon": "images/modifier/role/role3/role3_epic_2.png",
+    "shape": "images/modifier/role/role3/role3_epic_2_shape.png"
+  },
+  {
+    "id": "role3_epic_3",
+    "name": "归土",
+    "description": "俯冲施加衰败效果。",
+    "value": "元素：+10",
+    "icon": "images/modifier/role/role3/role3_epic_3.png",
+    "shape": "images/modifier/role/role3/role3_epic_3_shape.png"
+  },
+  {
+    "id": "role3_epic_4",
+    "name": "无差别守护者",
+    "description": "部署护盾投射器时，为附近所有玩家提供护罩。",
+    "value": "护罩范围：8.05",
+    "icon": "images/modifier/role/role3/role3_epic_4.png",
+    "shape": "images/modifier/role/role3/role3_epic_4_shape.png"
+  },
+  {
+    "id": "role3_epic_5",
+    "name": "溅射区域",
+    "description": "俯冲会施加你当前所承受的元素效果。",
+    "value": "范围：7.87；伤害：25.34；元素：火焰/强酸/电击",
+    "icon": "images/modifier/role/role3/role3_epic_5.png",
+    "shape": "images/modifier/role/role3/role3_epic_5_shape.png"
+  },
+  {
+    "id": "role3_epic_6",
+    "name": "俯冲弹跳",
+    "description": "使用俯冲后会弹跳而起并再次撞击。",
+    "value": "俯冲后弹跳次数：+1",
+    "icon": "images/modifier/role/role3/role3_epic_6.png",
+    "shape": "images/modifier/role/role3/role3_epic_6_shape.png"
+  },
+  {
+    "id": "role3_epic_7",
+    "name": "彗星飞堕",
+    "description": "俯冲的爆炸半径会根据你的俯冲距离而增加。",
+    "value": "每米增加范围：+1.86",
+    "icon": "images/modifier/role/role3/role3_epic_7.png",
+    "shape": "images/modifier/role/role3/role3_epic_7_shape.png"
+  },
+  {
+    "id": "role3_rare_1",
+    "name": "与你同在",
+    "description": "使用与我同在使盟友获得免疫时，你自己也会短暂获得免疫。",
+    "value": "/",
+    "icon": "images/modifier/role/role3/role3_rare_1.png",
+    "shape": "images/modifier/role/role3/role3_rare_1_shape.png"
+  },
+  {
+    "id": "role3_rare_2",
+    "name": "与我同在",
+    "description": "被你的俯冲命中的盟友会短暂获得免疫。",
+    "value": "/",
+    "icon": "images/modifier/role/role3/role3_rare_2.png",
+    "shape": "images/modifier/role/role3/role3_rare_2_shape.png"
+  },
+  {
+    "id": "role3_rare_3",
+    "name": "再充能改进",
+    "description": "俯冲冷却时间减少。",
+    "value": "回复速度：+17%",
+    "icon": "images/modifier/role/role3/role3_rare_3.png",
+    "shape": "images/modifier/role/role3/role3_rare_3_shape.png"
+  },
+  {
+    "id": "role3_rare_4",
+    "name": "液冷系统",
+    "description": "护盾投射器冷却时间减少。",
+    "value": "回复速度：+22%",
+    "icon": "images/modifier/role/role3/role3_rare_4.png",
+    "shape": "images/modifier/role/role3/role3_rare_4_shape.png"
+  },
+  {
+    "id": "role3_rare_5",
+    "name": "膝冲",
+    "description": "俯冲的伤害大幅增加，但作用范围显著减小。",
+    "value": "伤害：+1507%；范围：-87%",
+    "icon": "images/modifier/role/role3/role3_rare_5.png",
+    "shape": "images/modifier/role/role3/role3_rare_5_shape.png"
+  },
+  {
+    "id": "role3_rare_6",
+    "name": "跳跃平台",
+    "description": "你的跳跃距离大幅增加。",
+    "value": "向上跳跃：-37%",
+    "icon": "images/modifier/role/role3/role3_rare_6.png",
+    "shape": "images/modifier/role/role3/role3_rare_6_shape.png"
+  },
+  {
+    "id": "role3_rare_7",
+    "name": "发射储备",
+    "description": "跳跃时不发动俯冲，可返还更多俯冲充能。",
+    "value": "返还充能量：+26%；范围：-62%",
+    "icon": "images/modifier/role/role3/role3_rare_7.png",
+    "shape": "images/modifier/role/role3/role3_rare_7_shape.png"
+  },
+  {
+    "id": "role3_rare_8",
+    "name": "反向助推",
+    "description": "激活你的护盾投射器会将你向后推开。",
+    "value": "力：25.76",
+    "icon": "images/modifier/role/role3/role3_rare_8.png",
+    "shape": "images/modifier/role/role3/role3_rare_8_shape.png"
+  },
+  {
+    "id": "role3_rare_9",
+    "name": "自杀密码",
+    "description": "连续按0键三次可以自爆。",
+    "value": "爆炸范围：7；伤害：77.96",
+    "icon": "images/modifier/role/role3/role3_rare_9.png",
+    "shape": "images/modifier/role/role3/role3_rare_9_shape.png"
+  },
+  {
+    "id": "role3_rare_10",
+    "name": "重锤防护",
+    "description": "生命值上限增加，但移动速度略微降低。",
+    "value": "生命值：+11%;移速:-5%",
+    "icon": "images/modifier/role/role3/role3_rare_10.png",
+    "shape": "images/modifier/role/role3/role3_rare_10_shape.png"
+  },
+  {
+    "id": "role3_rare_11",
+    "name": "冲击膛室",
+    "description": "用你的俯冲命中盟友可为其武器装填弹药。",
+    "value": "/",
+    "icon": "images/modifier/role/role3/role3_rare_11.png",
+    "shape": "images/modifier/role/role3/role3_rare_11_shape.png"
+  },
+  {
+    "id": "role3_rare_12",
+    "name": "吸附俯冲",
+    "description": "俯冲会将目标拉向你。",
+    "value": "上击力：-90%；击退力：-11.04",
+    "icon": "images/modifier/role/role3/role3_rare_12.png",
+    "shape": "images/modifier/role/role3/role3_rare_12_shape.png"
+  },
+  {
+    "id": "role3_rare_13",
+    "name": "我为人人",
+    "description": "其他玩家会在你死亡时回复生命值。",
+    "value": "治疗：+23.5",
+    "icon": "images/modifier/role/role3/role3_rare_13.png",
+    "shape": "images/modifier/role/role3/role3_rare_13_shape.png"
+  },
+  {
+    "id": "role3_standard_1",
+    "name": "力场冲击",
+    "description": "你的护盾投射器将以更强的冲击力击退敌人。",
+    "value": "护盾推斥力度：+40%；冲击力度：+35%",
+    "icon": "images/modifier/role/role3/role3_standard_1.png",
+    "shape": "images/modifier/role/role3/role3_standard_1_shape.png"
+  },
+  {
+    "id": "role3_standard_2",
+    "name": "导热硅脂",
+    "description": "护盾投射器冷却时间减少。",
+    "value": "回复速度：+12%",
+    "icon": "images/modifier/role/role3/role3_standard_2.png",
+    "shape": "images/modifier/role/role3/role3_standard_2_shape.png"
+  },
+  {
+    "id": "role3_standard_3",
+    "name": "智能任务管理器",
+    "description": "俯冲冷却时间减少。",
+    "value": "回复速度：+9%",
+    "icon": "images/modifier/role/role3/role3_standard_3.png",
+    "shape": "images/modifier/role/role3/role3_standard_3_shape.png"
+  },
+  {
+    "id": "role3_standard_4",
+    "name": "青蛙腿",
+    "description": "激活俯冲时，将以更强力道跳跃。",
+    "value": "跳跃力度：+25%",
+    "icon": "images/modifier/role/role3/role3_standard_4.png",
+    "shape": "images/modifier/role/role3/role3_standard_4_shape.png"
+  },
+  {
+    "id": "role3_standard_5",
+    "name": "俯冲中断",
+    "description": "在俯冲过程中跳跃可取消动作并保持动量。",
+    "value": "/",
+    "icon": "images/modifier/role/role3/role3_standard_5.png",
+    "shape": "images/modifier/role/role3/role3_standard_5_shape.png"
+  },
+  {
+    "id": "role3_standard_6",
+    "name": "力量调配",
+    "description": "俯冲的爆炸半径增加，但伤害降低。",
+    "value": "范围：+47%；伤害：-53%",
+    "icon": "images/modifier/role/role3/role3_standard_6.png",
+    "shape": "images/modifier/role/role3/role3_standard_6_shape.png"
+  },
+  {
+    "id": "role3_standard_7",
+    "name": "滚开",
+    "description": "俯冲时将周围目标击退。",
+    "value": "击退力：+6.74",
+    "icon": "images/modifier/role/role3/role3_standard_7.png",
+    "shape": "images/modifier/role/role3/role3_standard_7_shape.png"
+  },
+
+
+  {
+    "id": "role4_oddity_1",
+    "name": "模块化建筑",
+    "description": "由更硬的坚光构成。",
+    "value": "回复速度：+400%；充能：+5；射距：+9",
+    "icon": "images/modifier/role/role4/role4_oddity_1.png",
+    "shape": "images/modifier/role/role4/role4_oddity_1_shape.png"
+  },
+  {
+    "id": "role4_exotic_1",
+    "name": "坚光囚笼",
+    "description": "你的护盾投射器将生成一个巨大的立方体牢笼，困住其中的敌人。身处立方体内的玩家会持续恢复生命。护盾持续时间增加。",
+    "value": "治疗：3.52；持续时间：+6；水平尺寸：25.68",
+    "icon": "images/modifier/role/role4/role4_exotic_1.png",
+    "shape": "images/modifier/role/role4/role4_exotic_1_shape.png"
+  },
+  {
+    "id": "role4_exotic_2",
+    "name": "坚守阵线",
+    "description": "你的俯冲于撞击时会产生一个临时的气泡护盾。",
+    "value": "持续时间：3.86；范围：11",
+    "icon": "images/modifier/role/role4/role4_exotic_2.png",
+    "shape": "images/modifier/role/role4/role4_exotic_2_shape.png"
+  },
+  {
+    "id": "role4_exotic_3",
+    "name": "闪电俯冲",
+    "description": "俯冲时会释放一道闪电，最多可在12个目标之间弹跳。",
+    "value": "射距：11.85；最大命中数：11",
+    "icon": "images/modifier/role/role4/role4_exotic_3.png",
+    "shape": "images/modifier/role/role4/role4_exotic_3_shape.png"
+  },
+  {
+    "id": "role4_exotic_4",
+    "name": "额外附赠",
+    "description": "获得一次额外的俯冲充能。",
+    "value": "回复速度：-8%；充能：+1",
+    "icon": "images/modifier/role/role4/role4_exotic_4.png",
+    "shape": "images/modifier/role/role4/role4_exotic_4_shape.png"
+  },
+  {
+    "id": "role4_epic_1",
+    "name": "圆顶化",
+    "description": "你的护盾投射器现在呈圆顶形态。",
+    "value": "/",
+    "icon": "images/modifier/role/role4/role4_epic_1.png",
+    "shape": "images/modifier/role/role4/role4_epic_1_shape.png"
+  },
+  {
+    "id": "role4_epic_2",
+    "name": "坚光涂层",
+    "description": "你的护盾投射器会对作用范围内的目标施加指定元素，但冷却时间增加。",
+    "value": "元素：火焰/强酸/电击；回复速度：-38%",
+    "icon": "images/modifier/role/role4/role4_epic_2.png",
+    "shape": "images/modifier/role/role4/role4_epic_2_shape.png"
+  },
+  {
+    "id": "role4_epic_3",
+    "name": "归土",
+    "description": "俯冲施加衰败效果。",
+    "value": "元素：+10",
+    "icon": "images/modifier/role/role4/role4_epic_3.png",
+    "shape": "images/modifier/role/role4/role4_epic_3_shape.png"
+  },
+  {
+    "id": "role4_epic_4",
+    "name": "无差别守护者",
+    "description": "部署护盾投射器时，为附近所有玩家提供护罩。",
+    "value": "护罩范围：8.05",
+    "icon": "images/modifier/role/role4/role4_epic_4.png",
+    "shape": "images/modifier/role/role4/role4_epic_4_shape.png"
+  },
+  {
+    "id": "role4_epic_5",
+    "name": "溅射区域",
+    "description": "俯冲会施加你当前所承受的元素效果。",
+    "value": "范围：7.87；伤害：25.34；元素：火焰/强酸/电击",
+    "icon": "images/modifier/role/role4/role4_epic_5.png",
+    "shape": "images/modifier/role/role4/role4_epic_5_shape.png"
+  },
+  {
+    "id": "role4_epic_6",
+    "name": "俯冲弹跳",
+    "description": "使用俯冲后会弹跳而起并再次撞击。",
+    "value": "俯冲后弹跳次数：+1",
+    "icon": "images/modifier/role/role4/role4_epic_6.png",
+    "shape": "images/modifier/role/role4/role4_epic_6_shape.png"
+  },
+  {
+    "id": "role4_epic_7",
+    "name": "彗星飞堕",
+    "description": "俯冲的爆炸半径会根据你的俯冲距离而增加。",
+    "value": "每米增加范围：+1.86",
+    "icon": "images/modifier/role/role4/role4_epic_7.png",
+    "shape": "images/modifier/role/role4/role4_epic_7_shape.png"
+  },
+  {
+    "id": "role4_rare_1",
+    "name": "与你同在",
+    "description": "使用与我同在使盟友获得免疫时，你自己也会短暂获得免疫。",
+    "value": "/",
+    "icon": "images/modifier/role/role4/role4_rare_1.png",
+    "shape": "images/modifier/role/role4/role4_rare_1_shape.png"
+  },
+  {
+    "id": "role4_rare_2",
+    "name": "与我同在",
+    "description": "被你的俯冲命中的盟友会短暂获得免疫。",
+    "value": "/",
+    "icon": "images/modifier/role/role4/role4_rare_2.png",
+    "shape": "images/modifier/role/role4/role4_rare_2_shape.png"
+  },
+  {
+    "id": "role4_rare_3",
+    "name": "再充能改进",
+    "description": "俯冲冷却时间减少。",
+    "value": "回复速度：+17%",
+    "icon": "images/modifier/role/role4/role4_rare_3.png",
+    "shape": "images/modifier/role/role4/role4_rare_3_shape.png"
+  },
+  {
+    "id": "role4_rare_4",
+    "name": "液冷系统",
+    "description": "护盾投射器冷却时间减少。",
+    "value": "回复速度：+22%",
+    "icon": "images/modifier/role/role4/role4_rare_4.png",
+    "shape": "images/modifier/role/role4/role4_rare_4_shape.png"
+  },
+  {
+    "id": "role4_rare_5",
+    "name": "膝冲",
+    "description": "俯冲的伤害大幅增加，但作用范围显著减小。",
+    "value": "伤害：+1507%；范围：-87%",
+    "icon": "images/modifier/role/role4/role4_rare_5.png",
+    "shape": "images/modifier/role/role4/role4_rare_5_shape.png"
+  },
+  {
+    "id": "role4_rare_6",
+    "name": "跳跃平台",
+    "description": "你的跳跃距离大幅增加。",
+    "value": "向上跳跃：-37%",
+    "icon": "images/modifier/role/role4/role4_rare_6.png",
+    "shape": "images/modifier/role/role4/role4_rare_6_shape.png"
+  },
+  {
+    "id": "role4_rare_7",
+    "name": "发射储备",
+    "description": "跳跃时不发动俯冲，可返还更多俯冲充能。",
+    "value": "返还充能量：+26%；范围：-62%",
+    "icon": "images/modifier/role/role4/role4_rare_7.png",
+    "shape": "images/modifier/role/role4/role4_rare_7_shape.png"
+  },
+  {
+    "id": "role4_rare_8",
+    "name": "反向助推",
+    "description": "激活你的护盾投射器会将你向后推开。",
+    "value": "力：25.76",
+    "icon": "images/modifier/role/role4/role4_rare_8.png",
+    "shape": "images/modifier/role/role4/role4_rare_8_shape.png"
+  },
+  {
+    "id": "role4_rare_9",
+    "name": "自杀密码",
+    "description": "连续按0键三次可以自爆。",
+    "value": "爆炸范围：7；伤害：77.96",
+    "icon": "images/modifier/role/role4/role4_rare_9.png",
+    "shape": "images/modifier/role/role4/role4_rare_9_shape.png"
+  },
+  {
+    "id": "role4_rare_10",
+    "name": "重锤防护",
+    "description": "生命值上限增加，但移动速度略微降低。",
+    "value": "生命值：+11%;移速:-5%",
+    "icon": "images/modifier/role/role4/role4_rare_10.png",
+    "shape": "images/modifier/role/role4/role4_rare_10_shape.png"
+  },
+  {
+    "id": "role4_rare_11",
+    "name": "冲击膛室",
+    "description": "用你的俯冲命中盟友可为其武器装填弹药。",
+    "value": "/",
+    "icon": "images/modifier/role/role4/role4_rare_11.png",
+    "shape": "images/modifier/role/role4/role4_rare_11_shape.png"
+  },
+  {
+    "id": "role4_rare_12",
+    "name": "吸附俯冲",
+    "description": "俯冲会将目标拉向你。",
+    "value": "上击力：-90%；击退力：-11.04",
+    "icon": "images/modifier/role/role4/role4_rare_12.png",
+    "shape": "images/modifier/role/role4/role4_rare_12_shape.png"
+  },
+  {
+    "id": "role4_rare_13",
+    "name": "我为人人",
+    "description": "其他玩家会在你死亡时回复生命值。",
+    "value": "治疗：+23.5",
+    "icon": "images/modifier/role/role4/role4_rare_13.png",
+    "shape": "images/modifier/role/role4/role4_rare_13_shape.png"
+  },
+  {
+    "id": "role4_standard_1",
+    "name": "力场冲击",
+    "description": "你的护盾投射器将以更强的冲击力击退敌人。",
+    "value": "护盾推斥力度：+40%；冲击力度：+35%",
+    "icon": "images/modifier/role/role4/role4_standard_1.png",
+    "shape": "images/modifier/role/role4/role4_standard_1_shape.png"
+  },
+  {
+    "id": "role4_standard_2",
+    "name": "导热硅脂",
+    "description": "护盾投射器冷却时间减少。",
+    "value": "回复速度：+12%",
+    "icon": "images/modifier/role/role4/role4_standard_2.png",
+    "shape": "images/modifier/role/role4/role4_standard_2_shape.png"
+  },
+  {
+    "id": "role4_standard_3",
+    "name": "智能任务管理器",
+    "description": "俯冲冷却时间减少。",
+    "value": "回复速度：+9%",
+    "icon": "images/modifier/role/role4/role4_standard_3.png",
+    "shape": "images/modifier/role/role4/role4_standard_3_shape.png"
+  },
+  {
+    "id": "role4_standard_4",
+    "name": "青蛙腿",
+    "description": "激活俯冲时，将以更强力道跳跃。",
+    "value": "跳跃力度：+25%",
+    "icon": "images/modifier/role/role4/role4_standard_4.png",
+    "shape": "images/modifier/role/role4/role4_standard_4_shape.png"
+  },
+  {
+    "id": "role4_standard_5",
+    "name": "俯冲中断",
+    "description": "在俯冲过程中跳跃可取消动作并保持动量。",
+    "value": "/",
+    "icon": "images/modifier/role/role4/role4_standard_5.png",
+    "shape": "images/modifier/role/role4/role4_standard_5_shape.png"
+  },
+  {
+    "id": "role4_standard_6",
+    "name": "力量调配",
+    "description": "俯冲的爆炸半径增加，但伤害降低。",
+    "value": "范围：+47%；伤害：-53%",
+    "icon": "images/modifier/role/role4/role4_standard_6.png",
+    "shape": "images/modifier/role/role4/role4_standard_6_shape.png"
+  },
+  {
+    "id": "role4_standard_7",
+    "name": "滚开",
+    "description": "俯冲时将周围目标击退。",
+    "value": "击退力：+6.74",
+    "icon": "images/modifier/role/role4/role4_standard_7.png",
+    "shape": "images/modifier/role/role4/role4_standard_7_shape.png"
   }
 ]
