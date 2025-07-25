@@ -2488,7 +2488,7 @@
     "id": "weapon9_exotic_2",
     "name": "洪流",
     "description": "球球触及表面时，产生酸蚀波浪",
-    "value": "距离：31.42；射速：-57%；可弹跳次数：9；弹药上限：-75%",
+    "value": "距离：31.42；射速：-57%；可弹跳次数：0；弹药上限：-75%",
     "icon": "images/modifier/weapon/weapon9/weapon9_exotic_2.png",
     "shape": "images/modifier/weapon/weapon9/weapon9_exotic_2_shape.png"
   },
