@@ -3438,476 +3438,718 @@
   },
   {
     "id": "role3_epic_1",
-    "name": "圆顶化",
-    "description": "你的护盾投射器现在呈圆顶形态。",
-    "value": "/",
+    "name": "元素过热",
+    "description": "当选定元素效果完全施加于你身上时，使用抓钩杆消耗的能量减少。",
+    "value": "能量消耗：-78%；元素：火焰/强酸/电击",
     "icon": "images/modifier/role/role3/role3_epic_1.png",
     "shape": "images/modifier/role/role3/role3_epic_1_shape.png"
   },
   {
     "id": "role3_epic_2",
-    "name": "坚光涂层",
-    "description": "你的护盾投射器会对作用范围内的目标施加指定元素，但冷却时间增加。",
-    "value": "元素：火焰/强酸/电击；回复速度：-38%",
+    "name": "废料虹吸",
+    "description": "在喷气背包的燃料耗尽后，消耗废料以继续使用。",
+    "value": "每秒废料消耗：6.89",
     "icon": "images/modifier/role/role3/role3_epic_2.png",
     "shape": "images/modifier/role/role3/role3_epic_2_shape.png"
   },
   {
     "id": "role3_epic_3",
-    "name": "归土",
-    "description": "俯冲施加衰败效果。",
-    "value": "元素：+10",
+    "name": "燃料站",
+    "description": "使用抓钩杆时，你的喷气背包回复速度加快。",
+    "value": "每秒充能量：+0.44",
     "icon": "images/modifier/role/role3/role3_epic_3.png",
     "shape": "images/modifier/role/role3/role3_epic_3_shape.png"
   },
   {
     "id": "role3_epic_4",
-    "name": "无差别守护者",
-    "description": "部署护盾投射器时，为附近所有玩家提供护罩。",
-    "value": "护罩范围：8.05",
+    "name": "爆杆",
+    "description": "你首次使用抓钩杆时，将在你的位置创造一场元素爆炸。",
+    "value": "爆炸范围：6.38；元素：火焰/强酸/电击",
     "icon": "images/modifier/role/role3/role3_epic_4.png",
     "shape": "images/modifier/role/role3/role3_epic_4_shape.png"
   },
   {
     "id": "role3_epic_5",
-    "name": "溅射区域",
-    "description": "俯冲会施加你当前所承受的元素效果。",
-    "value": "范围：7.87；伤害：25.34；元素：火焰/强酸/电击",
+    "name": "狂乱机关",
+    "description": "你持有的废料层数将加快移速，但废料的衰减速度也会加快。",
+    "value": "每层速度：+0.21；衰败间隔：1.16",
     "icon": "images/modifier/role/role3/role3_epic_5.png",
     "shape": "images/modifier/role/role3/role3_epic_5_shape.png"
   },
   {
     "id": "role3_epic_6",
-    "name": "俯冲弹跳",
-    "description": "使用俯冲后会弹跳而起并再次撞击。",
-    "value": "俯冲后弹跳次数：+1",
+    "name": "肠胃不适",
+    "description": "按住手雷键可呕吐出一串能造成伤害的备用零件。",
+    "value": "冷却时间：43.24；呕吐持续时间：2.03；射距：8.83",
     "icon": "images/modifier/role/role3/role3_epic_6.png",
     "shape": "images/modifier/role/role3/role3_epic_6_shape.png"
   },
   {
     "id": "role3_epic_7",
-    "name": "彗星飞堕",
-    "description": "俯冲的爆炸半径会根据你的俯冲距离而增加。",
-    "value": "每米增加范围：+1.86",
+    "name": "塞克森力量单元",
+    "description": "你的抓钩杆会释放一个反重力力场。",
+    "value": "重力：-81%；范围：15.93",
     "icon": "images/modifier/role/role3/role3_epic_7.png",
     "shape": "images/modifier/role/role3/role3_epic_7_shape.png"
   },
   {
+    "id": "role3_epic_8",
+    "name": "毁灭之球",
+    "description": "飞荡撞向敌人可对其造成伤害。",
+    "value": "伤害：280.62",
+    "icon": "images/modifier/role/role3/role3_epic_8.png",
+    "shape": "images/modifier/role/role3/role3_epic_8_shape.png"
+  },
+  {
+    "id": "role3_epic_9",
+    "name": "爆鸣核心",
+    "description": "当你的抓钩杆首次耗尽能量时，其能量将会部分回复，并将指定元素完全施加到你身上。",
+    "value": "增加的持续时间：69.0%;；元素：火焰/强酸/电击",
+    "icon": "images/modifier/role/role3/role3_epic_9.png",
+    "shape": "images/modifier/role/role3/role3_epic_9_shape.png"
+  },
+  {
+    "id": "role3_epic_10",
+    "name": "并联线路",
+    "description": "每有一个与此升级项相邻的不同种类升级项，都会增加抓钩持续时间。",
+    "value": "每升级项持续时间增益：+0.52",
+    "icon": "images/modifier/role/role3/role3_epic_10.png",
+    "shape": "images/modifier/role/role3/role3_epic_10_shape.png"
+  },
+  {
     "id": "role3_rare_1",
-    "name": "与你同在",
-    "description": "使用与我同在使盟友获得免疫时，你自己也会短暂获得免疫。",
-    "value": "/",
+    "name": "太阳能板",
+    "description": "抓钩杆冷却时间减少。",
+    "value": "回复速度：+21%",
     "icon": "images/modifier/role/role3/role3_rare_1.png",
     "shape": "images/modifier/role/role3/role3_rare_1_shape.png"
   },
   {
     "id": "role3_rare_2",
-    "name": "与我同在",
-    "description": "被你的俯冲命中的盟友会短暂获得免疫。",
-    "value": "/",
+    "name": "理想条件",
+    "description": "脱战时抓钩持续时间大幅增加。此效果适用于任何使用你抓钩杆的玩家。",
+    "value": "抓钩持续时间：+837%",
     "icon": "images/modifier/role/role3/role3_rare_2.png",
     "shape": "images/modifier/role/role3/role3_rare_2_shape.png"
   },
   {
     "id": "role3_rare_3",
-    "name": "再充能改进",
-    "description": "俯冲冷却时间减少。",
-    "value": "回复速度：+17%",
+    "name": "窃取纳米",
+    "description": "玩家在你的抓钩杆上时将持续恢复生命值。",
+    "value": "每秒恢复量：4.35",
     "icon": "images/modifier/role/role3/role3_rare_3.png",
     "shape": "images/modifier/role/role3/role3_rare_3_shape.png"
   },
   {
     "id": "role3_rare_4",
-    "name": "液冷系统",
-    "description": "护盾投射器冷却时间减少。",
-    "value": "回复速度：+22%",
+    "name": "反馈中继",
+    "description": "当你触电时，你的抓钩杆将恢复部分充能。",
+    "value": "充能：+9.72",
     "icon": "images/modifier/role/role3/role3_rare_4.png",
     "shape": "images/modifier/role/role3/role3_rare_4_shape.png"
   },
   {
     "id": "role3_rare_5",
-    "name": "膝冲",
-    "description": "俯冲的伤害大幅增加，但作用范围显著减小。",
-    "value": "伤害：+1507%；范围：-87%",
+    "name": "备用缆线",
+    "description": "抓钩持续时间增加。",
+    "value": "抓钩持续时间：+30%",
     "icon": "images/modifier/role/role3/role3_rare_5.png",
     "shape": "images/modifier/role/role3/role3_rare_5_shape.png"
   },
   {
     "id": "role3_rare_6",
-    "name": "跳跃平台",
-    "description": "你的跳跃距离大幅增加。",
-    "value": "向上跳跃：-37%",
+    "name": "故意失误",
+    "description": "近战攻击爆炸性零件会立即点燃其引信并扩大其爆炸范围。",
+    "value": "/",
     "icon": "images/modifier/role/role3/role3_rare_6.png",
     "shape": "images/modifier/role/role3/role3_rare_6_shape.png"
   },
   {
     "id": "role3_rare_7",
-    "name": "发射储备",
-    "description": "跳跃时不发动俯冲，可返还更多俯冲充能。",
-    "value": "返还充能量：+26%；范围：-62%",
+    "name": "多线程",
+    "description": "当你和其他玩家同时使用你的抓钩杆时，消耗的能量减少。",
+    "value": "能量消耗：-82%",
     "icon": "images/modifier/role/role3/role3_rare_7.png",
     "shape": "images/modifier/role/role3/role3_rare_7_shape.png"
   },
   {
     "id": "role3_rare_8",
-    "name": "反向助推",
-    "description": "激活你的护盾投射器会将你向后推开。",
-    "value": "力：25.76",
+    "name": "螺旋弹簧",
+    "description": "下蹲状态下跳跃力大幅增强。",
+    "value": "力：+25.14",
     "icon": "images/modifier/role/role3/role3_rare_8.png",
     "shape": "images/modifier/role/role3/role3_rare_8_shape.png"
   },
   {
     "id": "role3_rare_9",
-    "name": "自杀密码",
-    "description": "连续按0键三次可以自爆。",
-    "value": "爆炸范围：7；伤害：77.96",
+    "name": "爆发释放",
+    "description": "以更快的速度释放你的燃料，获得更强的速度爆发。",
+    "value": "初始推力：+252%；喷气背包持续时间：-70%",
     "icon": "images/modifier/role/role3/role3_rare_9.png",
     "shape": "images/modifier/role/role3/role3_rare_9_shape.png"
   },
   {
     "id": "role3_rare_10",
-    "name": "重锤防护",
-    "description": "生命值上限增加，但移动速度略微降低。",
-    "value": "生命值：+11%;移速:-5%",
+    "name": "脉冲弹射",
+    "description": "玩家从你的抓钩杆脱离时将获得爆发性加速。",
+    "value": "速度：29.87",
     "icon": "images/modifier/role/role3/role3_rare_10.png",
     "shape": "images/modifier/role/role3/role3_rare_10_shape.png"
   },
   {
     "id": "role3_rare_11",
-    "name": "冲击膛室",
-    "description": "用你的俯冲命中盟友可为其武器装填弹药。",
-    "value": "/",
+    "name": "再生燃料",
+    "description": "喷气背包持续时间增加，但稳定性下降。",
+    "value": "喷气背包持续时间：+30%；打嗝力度：+339%",
     "icon": "images/modifier/role/role3/role3_rare_11.png",
     "shape": "images/modifier/role/role3/role3_rare_11_shape.png"
   },
   {
     "id": "role3_rare_12",
-    "name": "吸附俯冲",
-    "description": "俯冲会将目标拉向你。",
-    "value": "上击力：-90%；击退力：-11.04",
+    "name": "尾部推进器",
+    "description": "激活喷气背包时将获得向前推力。",
+    "value": "前进速度：+6.33",
     "icon": "images/modifier/role/role3/role3_rare_12.png",
     "shape": "images/modifier/role/role3/role3_rare_12_shape.png"
   },
   {
-    "id": "role3_rare_13",
-    "name": "我为人人",
-    "description": "其他玩家会在你死亡时回复生命值。",
-    "value": "治疗：+23.5",
-    "icon": "images/modifier/role/role3/role3_rare_13.png",
-    "shape": "images/modifier/role/role3/role3_rare_13_shape.png"
-  },
-  {
     "id": "role3_standard_1",
-    "name": "力场冲击",
-    "description": "你的护盾投射器将以更强的冲击力击退敌人。",
-    "value": "护盾推斥力度：+40%；冲击力度：+35%",
+    "name": "抓钩电池",
+    "description": "抓钩持续时间增加。",
+    "value": "抓钩持续时间：+19%",
     "icon": "images/modifier/role/role3/role3_standard_1.png",
     "shape": "images/modifier/role/role3/role3_standard_1_shape.png"
   },
   {
     "id": "role3_standard_2",
-    "name": "导热硅脂",
-    "description": "护盾投射器冷却时间减少。",
-    "value": "回复速度：+12%",
+    "name": "无线扩展器",
+    "description": "抓钩距离提升。",
+    "value": "抓钩可互动范围：+26%",
     "icon": "images/modifier/role/role3/role3_standard_2.png",
     "shape": "images/modifier/role/role3/role3_standard_2_shape.png"
   },
   {
     "id": "role3_standard_3",
-    "name": "智能任务管理器",
-    "description": "俯冲冷却时间减少。",
-    "value": "回复速度：+9%",
+    "name": "冷却通风口",
+    "description": "你的喷气背包回复速度加快。",
+    "value": "回复速度：+13%",
     "icon": "images/modifier/role/role3/role3_standard_3.png",
     "shape": "images/modifier/role/role3/role3_standard_3_shape.png"
   },
   {
     "id": "role3_standard_4",
-    "name": "青蛙腿",
-    "description": "激活俯冲时，将以更强力道跳跃。",
-    "value": "跳跃力度：+25%",
+    "name": "燃料配给",
+    "description": "喷气背包持续时间增加。",
+    "value": "喷气背包持续时间：+9%",
     "icon": "images/modifier/role/role3/role3_standard_4.png",
     "shape": "images/modifier/role/role3/role3_standard_4_shape.png"
   },
   {
     "id": "role3_standard_5",
-    "name": "俯冲中断",
-    "description": "在俯冲过程中跳跃可取消动作并保持动量。",
-    "value": "/",
+    "name": "压力增幅",
+    "description": "喷气背包的推进力增强。",
+    "value": "力：+16%",
     "icon": "images/modifier/role/role3/role3_standard_5.png",
     "shape": "images/modifier/role/role3/role3_standard_5_shape.png"
   },
-  {
-    "id": "role3_standard_6",
-    "name": "力量调配",
-    "description": "俯冲的爆炸半径增加，但伤害降低。",
-    "value": "范围：+47%；伤害：-53%",
-    "icon": "images/modifier/role/role3/role3_standard_6.png",
-    "shape": "images/modifier/role/role3/role3_standard_6_shape.png"
-  },
-  {
-    "id": "role3_standard_7",
-    "name": "滚开",
-    "description": "俯冲时将周围目标击退。",
-    "value": "击退力：+6.74",
-    "icon": "images/modifier/role/role3/role3_standard_7.png",
-    "shape": "images/modifier/role/role3/role3_standard_7_shape.png"
-  },
 
 
-  {
-    "id": "role4_oddity_1",
-    "name": "模块化建筑",
-    "description": "由更硬的坚光构成。",
-    "value": "回复速度：+400%；充能：+5；射距：+9",
-    "icon": "images/modifier/role/role4/role4_oddity_1.png",
-    "shape": "images/modifier/role/role4/role4_oddity_1_shape.png"
-  },
   {
     "id": "role4_exotic_1",
-    "name": "坚光囚笼",
-    "description": "你的护盾投射器将生成一个巨大的立方体牢笼，困住其中的敌人。身处立方体内的玩家会持续恢复生命。护盾持续时间增加。",
-    "value": "治疗：3.52；持续时间：+6；水平尺寸：25.68",
+    "name": "多弹头分导系统",
+    "description": "火箭齐射发射大量火箭进行密集轰炸，但冷却时间增加。",
+    "value": "齐射目标锁定：+18；锁定速度：+100%；射速：+170%；子弹追踪范围：+15；后坐力：-67%；速度：-40%；追踪力度：-40%；回复速度：-70%；治疗：-65%",
     "icon": "images/modifier/role/role4/role4_exotic_1.png",
     "shape": "images/modifier/role/role4/role4_exotic_1_shape.png"
   },
   {
     "id": "role4_exotic_2",
-    "name": "坚守阵线",
-    "description": "你的俯冲于撞击时会产生一个临时的气泡护盾。",
-    "value": "持续时间：3.86；范围：11",
+    "name": "清场炸药",
+    "description": "在空中时，你的火箭齐射会被替换为一枚衰败炸弹。",
+    "value": "冷却时间：71.91；范围：21.49；伤害：400",
     "icon": "images/modifier/role/role4/role4_exotic_2.png",
     "shape": "images/modifier/role/role4/role4_exotic_2_shape.png"
   },
   {
     "id": "role4_exotic_3",
-    "name": "闪电俯冲",
-    "description": "俯冲时会释放一道闪电，最多可在12个目标之间弹跳。",
-    "value": "射距：11.85；最大命中数：11",
+    "name": "生物燃料",
+    "description": "空中击杀敌人会补充部分翼装充能。",
+    "value": "充能：+0.14",
     "icon": "images/modifier/role/role4/role4_exotic_3.png",
     "shape": "images/modifier/role/role4/role4_exotic_3_shape.png"
   },
   {
     "id": "role4_exotic_4",
-    "name": "额外附赠",
-    "description": "获得一次额外的俯冲充能。",
-    "value": "回复速度：-8%；充能：+1",
+    "name": "耗能补给",
+    "description": "翼装不再随时间自动回复，但对敌人造成伤害时可回复部分充能。",
+    "value": "充能效率：+881%；回复速度：-88%",
     "icon": "images/modifier/role/role4/role4_exotic_4.png",
     "shape": "images/modifier/role/role4/role4_exotic_4_shape.png"
   },
   {
     "id": "role4_epic_1",
-    "name": "圆顶化",
-    "description": "你的护盾投射器现在呈圆顶形态。",
-    "value": "/",
+    "name": "纳米机器人回收",
+    "description": "治疗目标时回复火箭齐射充能",
+    "value": "充能：+0.12",
     "icon": "images/modifier/role/role4/role4_epic_1.png",
     "shape": "images/modifier/role/role4/role4_epic_1_shape.png"
   },
   {
     "id": "role4_epic_2",
-    "name": "坚光涂层",
-    "description": "你的护盾投射器会对作用范围内的目标施加指定元素，但冷却时间增加。",
-    "value": "元素：火焰/强酸/电击；回复速度：-38%",
+    "name": "储备材料",
+    "description": "可使用你所装备武器的弹药储备为火箭齐射锁定额外目标。",
+    "value": "弹药消耗：14.0%",
     "icon": "images/modifier/role/role4/role4_epic_2.png",
     "shape": "images/modifier/role/role4/role4_epic_2_shape.png"
   },
   {
     "id": "role4_epic_3",
-    "name": "归土",
-    "description": "俯冲施加衰败效果。",
-    "value": "元素：+10",
+    "name": "内核转能器",
+    "description": "火箭齐射的回复速度大幅加快，，但发射时会消耗生命值。",
+    "value": "生命值：2.4；回复速度：+825%",
     "icon": "images/modifier/role/role4/role4_epic_3.png",
     "shape": "images/modifier/role/role4/role4_epic_3_shape.png"
   },
   {
     "id": "role4_epic_4",
-    "name": "无差别守护者",
-    "description": "部署护盾投射器时，为附近所有玩家提供护罩。",
-    "value": "护罩范围：8.05",
+    "name": "导热系统过载",
+    "description": "燃料耗尽时，你的翼装将回复部分充能并使你引燃。该效果需要翼装通过自身回复了一些充能后才可以再次触发。",
+    "value": "充能：39.0%",
     "icon": "images/modifier/role/role4/role4_epic_4.png",
     "shape": "images/modifier/role/role4/role4_epic_4_shape.png"
   },
   {
     "id": "role4_epic_5",
-    "name": "溅射区域",
-    "description": "俯冲会施加你当前所承受的元素效果。",
-    "value": "范围：7.87；伤害：25.34；元素：火焰/强酸/电击",
+    "name": "恒星燃料",
+    "description": "翼装飞行持续时间增加。",
+    "value": "飞行持续时间：+88%",
     "icon": "images/modifier/role/role4/role4_epic_5.png",
     "shape": "images/modifier/role/role4/role4_epic_5_shape.png"
   },
   {
     "id": "role4_epic_6",
-    "name": "俯冲弹跳",
-    "description": "使用俯冲后会弹跳而起并再次撞击。",
-    "value": "俯冲后弹跳次数：+1",
+    "name": "热能回收",
+    "description": "飞行中使用火箭齐射会返还部分翼装充能。",
+    "value": "燃料返还量：64.0%",
     "icon": "images/modifier/role/role4/role4_epic_6.png",
     "shape": "images/modifier/role/role4/role4_epic_6_shape.png"
   },
   {
     "id": "role4_epic_7",
-    "name": "彗星飞堕",
-    "description": "俯冲的爆炸半径会根据你的俯冲距离而增加。",
-    "value": "每米增加范围：+1.86",
+    "name": "燃料注入",
+    "description": "首次拾起破碎玩家时，你的翼装将回复部分充能。",
+    "value": "充能：+65%",
     "icon": "images/modifier/role/role4/role4_epic_7.png",
     "shape": "images/modifier/role/role4/role4_epic_7_shape.png"
   },
   {
+    "id": "role4_epic_8",
+    "name": "膝式滑铲",
+    "description": "以滑铲结束滑翔，可获得爆发性加速。",
+    "value": "滑铲速度：+30.38",
+    "icon": "images/modifier/role/role4/role4_epic_8.png",
+    "shape": "images/modifier/role/role4/role4_epic_8_shape.png"
+  },
+  {
+    "id": "role4_epic_9",
+    "name": "航向修正",
+    "description": "飞行时双击左或右键可进行对应方向的闪避。",
+    "value": "速度：7.01",
+    "icon": "images/modifier/role/role4/role4_epic_9.png",
+    "shape": "images/modifier/role/role4/role4_epic_9_shape.png"
+  },
+  {
+    "id": "role4_epic_10",
+    "name": "远投",
+    "description": "持续飞行至少0，5秒后，短时间内近战攻击的范围与伤害大幅提升。",
+    "value": "持续时间：2.89；伤害：+70%；范围：+3.14",
+    "icon": "images/modifier/role/role4/role4_epic_10.png",
+    "shape": "images/modifier/role/role4/role4_epic_10_shape.png"
+  },
+  {
+    "id": "role4_epic_11",
+    "name": "速射",
+    "description": "火箭齐射每次只发射一枚火箭，但回复速度更快。每枚火箭可额外提供一次齐射充能。",
+    "value": "回复速度：+192%",
+    "icon": "images/modifier/role/role4/role4_epic_11.png",
+    "shape": "images/modifier/role/role4/role4_epic_11_shape.png"
+  },
+  {
     "id": "role4_rare_1",
-    "name": "与你同在",
-    "description": "使用与我同在使盟友获得免疫时，你自己也会短暂获得免疫。",
-    "value": "/",
+    "name": "专利填装算法",
+    "description": "发射更多火箭，但伤害降低。",
+    "value": "齐射目标锁定：+3；伤害：-63%",
     "icon": "images/modifier/role/role4/role4_rare_1.png",
     "shape": "images/modifier/role/role4/role4_rare_1_shape.png"
   },
   {
     "id": "role4_rare_2",
-    "name": "与我同在",
-    "description": "被你的俯冲命中的盟友会短暂获得免疫。",
-    "value": "/",
+    "name": "元素弹头",
+    "description": "火箭齐射施加给定元素。",
+    "value": "元素：火焰/强酸/电击；元素：+10",
     "icon": "images/modifier/role/role4/role4_rare_2.png",
     "shape": "images/modifier/role/role4/role4_rare_2_shape.png"
   },
   {
     "id": "role4_rare_3",
-    "name": "再充能改进",
-    "description": "俯冲冷却时间减少。",
-    "value": "回复速度：+17%",
+    "name": "充能转换",
+    "description": "向队友发射齐射火箭时可治疗自身。",
+    "value": "治疗：+6.66",
     "icon": "images/modifier/role/role4/role4_rare_3.png",
     "shape": "images/modifier/role/role4/role4_rare_3_shape.png"
   },
   {
     "id": "role4_rare_4",
-    "name": "液冷系统",
-    "description": "护盾投射器冷却时间减少。",
-    "value": "回复速度：+22%",
+    "name": "电池虹吸",
+    "description": "拾起破碎玩家时移动速度加快。",
+    "value": "速度：+1.68",
     "icon": "images/modifier/role/role4/role4_rare_4.png",
     "shape": "images/modifier/role/role4/role4_rare_4_shape.png"
   },
   {
     "id": "role4_rare_5",
-    "name": "膝冲",
-    "description": "俯冲的伤害大幅增加，但作用范围显著减小。",
-    "value": "伤害：+1507%；范围：-87%",
+    "name": "精确引爆",
+    "description": "火箭齐射伤害增加，但不再产生爆炸。",
+    "value": "爆炸范围：0；伤害：+394%",
     "icon": "images/modifier/role/role4/role4_rare_5.png",
     "shape": "images/modifier/role/role4/role4_rare_5_shape.png"
   },
   {
     "id": "role4_rare_6",
-    "name": "跳跃平台",
-    "description": "你的跳跃距离大幅增加。",
-    "value": "向上跳跃：-37%",
+    "name": "能量注入",
+    "description": "拾取破碎玩家时恢复生命值。",
+    "value": "治疗：+19.43",
     "icon": "images/modifier/role/role4/role4_rare_6.png",
     "shape": "images/modifier/role/role4/role4_rare_6_shape.png"
   },
   {
     "id": "role4_rare_7",
-    "name": "发射储备",
-    "description": "跳跃时不发动俯冲，可返还更多俯冲充能。",
-    "value": "返还充能量：+26%；范围：-62%",
+    "name": "袖珍火箭",
+    "description": "火箭齐射将额外发射一枚治疗火箭自动追踪一位邻近玩家。",
+    "value": "/",
     "icon": "images/modifier/role/role4/role4_rare_7.png",
     "shape": "images/modifier/role/role4/role4_rare_7_shape.png"
   },
   {
     "id": "role4_rare_8",
-    "name": "反向助推",
-    "description": "激活你的护盾投射器会将你向后推开。",
-    "value": "力：25.76",
+    "name": "高速瞄准",
+    "description": "在空中时，你造成的伤害增加。",
+    "value": "空中伤害：+13%",
     "icon": "images/modifier/role/role4/role4_rare_8.png",
     "shape": "images/modifier/role/role4/role4_rare_8_shape.png"
   },
   {
     "id": "role4_rare_9",
-    "name": "自杀密码",
-    "description": "连续按0键三次可以自爆。",
-    "value": "爆炸范围：7；伤害：77.96",
+    "name": "轻量化改装",
+    "description": "飞行速度加快，但火箭齐射的冷却时间也会增加。",
+    "value": "飞行速度：+41%；回复速度：-23%",
     "icon": "images/modifier/role/role4/role4_rare_9.png",
     "shape": "images/modifier/role/role4/role4_rare_9_shape.png"
   },
   {
     "id": "role4_rare_10",
-    "name": "重锤防护",
-    "description": "生命值上限增加，但移动速度略微降低。",
-    "value": "生命值：+11%;移速:-5%",
+    "name": "恐慌系统",
+    "description": "向后飞行时速度增加。",
+    "value": "速度：+22%",
     "icon": "images/modifier/role/role4/role4_rare_10.png",
     "shape": "images/modifier/role/role4/role4_rare_10_shape.png"
   },
   {
     "id": "role4_rare_11",
-    "name": "冲击膛室",
-    "description": "用你的俯冲命中盟友可为其武器装填弹药。",
+    "name": "侧向推进器",
+    "description": "在飞行时可以改变方向。",
     "value": "/",
     "icon": "images/modifier/role/role4/role4_rare_11.png",
     "shape": "images/modifier/role/role4/role4_rare_11_shape.png"
   },
   {
     "id": "role4_rare_12",
-    "name": "吸附俯冲",
-    "description": "俯冲会将目标拉向你。",
-    "value": "上击力：-90%；击退力：-11.04",
+    "name": "悬停精准",
+    "description": "瞄准火箭齐射时，你的下落速度会减缓。",
+    "value": "速度：-78%",
     "icon": "images/modifier/role/role4/role4_rare_12.png",
     "shape": "images/modifier/role/role4/role4_rare_12_shape.png"
   },
   {
-    "id": "role4_rare_13",
-    "name": "我为人人",
-    "description": "其他玩家会在你死亡时回复生命值。",
-    "value": "治疗：+23.5",
-    "icon": "images/modifier/role/role4/role4_rare_13.png",
-    "shape": "images/modifier/role/role4/role4_rare_13_shape.png"
-  },
-  {
     "id": "role4_standard_1",
-    "name": "力场冲击",
-    "description": "你的护盾投射器将以更强的冲击力击退敌人。",
-    "value": "护盾推斥力度：+40%；冲击力度：+35%",
+    "name": "纳米增值",
+    "description": "火箭齐射的治疗效果增加。",
+    "value": "治疗：+39%",
     "icon": "images/modifier/role/role4/role4_standard_1.png",
     "shape": "images/modifier/role/role4/role4_standard_1_shape.png"
   },
   {
     "id": "role4_standard_2",
-    "name": "导热硅脂",
-    "description": "护盾投射器冷却时间减少。",
-    "value": "回复速度：+12%",
+    "name": "重整机关",
+    "description": "火箭齐射冷却时间减少。",
+    "value": "回复速度：+10%",
     "icon": "images/modifier/role/role4/role4_standard_2.png",
     "shape": "images/modifier/role/role4/role4_standard_2_shape.png"
   },
   {
     "id": "role4_standard_3",
-    "name": "智能任务管理器",
-    "description": "俯冲冷却时间减少。",
-    "value": "回复速度：+9%",
+    "name": "流线化",
+    "description": "飞行速度增加。",
+    "value": "飞行速度：+9%",
     "icon": "images/modifier/role/role4/role4_standard_3.png",
     "shape": "images/modifier/role/role4/role4_standard_3_shape.png"
   },
   {
     "id": "role4_standard_4",
-    "name": "青蛙腿",
-    "description": "激活俯冲时，将以更强力道跳跃。",
-    "value": "跳跃力度：+25%",
+    "name": "燃料储备",
+    "description": "翼装飞行持续时间增加。",
+    "value": "飞行持续时间：+11%",
     "icon": "images/modifier/role/role4/role4_standard_4.png",
     "shape": "images/modifier/role/role4/role4_standard_4_shape.png"
   },
   {
     "id": "role4_standard_5",
-    "name": "俯冲中断",
-    "description": "在俯冲过程中跳跃可取消动作并保持动量。",
-    "value": "/",
+    "name": "高效存储",
+    "description": "可额外发射一枚火箭。火箭齐射伤害降低。",
+    "value": "齐射目标锁定：+1；伤害：-24%",
     "icon": "images/modifier/role/role4/role4_standard_5.png",
     "shape": "images/modifier/role/role4/role4_standard_5_shape.png"
   },
+
+
   {
-    "id": "role4_standard_6",
-    "name": "力量调配",
-    "description": "俯冲的爆炸半径增加，但伤害降低。",
-    "value": "范围：+47%；伤害：-53%",
-    "icon": "images/modifier/role/role4/role4_standard_6.png",
-    "shape": "images/modifier/role/role4/role4_standard_6_shape.png"
+    "id": "common_exotic_1",
+    "name": "磁力靴",
+    "description": "可以蹬墙跑。",
+    "value": "/",
+    "icon": "images/modifier/role/common/common_exotic_1.png",
+    "shape": "images/modifier/role/common/common_exotic_1_shape.png"
   },
   {
-    "id": "role4_standard_7",
-    "name": "滚开",
-    "description": "俯冲时将周围目标击退。",
-    "value": "击退力：+6.74",
-    "icon": "images/modifier/role/role4/role4_standard_7.png",
-    "shape": "images/modifier/role/role4/role4_standard_7_shape.png"
+    "id": "common_epic_1",
+    "name": "元素再生",
+    "description": "当指定元素效果消失时，生命值立即开始再生。",
+    "value": "元素：火焰/强酸/电击",
+    "icon": "images/modifier/role/common/common_epic_1.png",
+    "shape": "images/modifier/role/common/common_epic_1_shape.png"
+  },
+  {
+    "id": "common_epic_2",
+    "name": "元素鸡尾酒",
+    "description": "对目标完全施加主元素时，有概率附加10层副元素。",
+    "value": "主元素：火焰/强酸/电击；副元素：火焰/强酸/电击；38.0%概率；（主副元素排列组合一下）",
+    "icon": "images/modifier/role/common/common_epic_2.png",
+    "shape": "images/modifier/role/common/common_epic_2_shape.png"
+  },
+  {
+    "id": "common_epic_3",
+    "name": "动能效应",
+    "description": "当指定元素完全施加到你身上时，能更快地移动。",
+    "value": "元素：火焰/强酸/电击；速度：+2.73；持续时间：2.94",
+    "icon": "images/modifier/role/common/common_epic_3.png",
+    "shape": "images/modifier/role/common/common_epic_3_shape.png"
+  },
+  {
+    "id": "common_epic_4",
+    "name": "小心地滑",
+    "description": "滑铲时受到的伤害降低。",
+    "value": "受到伤害：-30%",
+    "icon": "images/modifier/role/common/common_epic_4.png",
+    "shape": "images/modifier/role/common/common_epic_4_shape.png"
+  },
+  {
+    "id": "common_epic_5",
+    "name": "废料回收",
+    "description": "用近战攻击消灭任意目标可部分装填你当前装备的武器。",
+    "value": "弹药效率：1.23",
+    "icon": "images/modifier/role/common/common_epic_5.png",
+    "shape": "images/modifier/role/common/common_epic_5_shape.png"
+  },
+  {
+    "id": "common_epic_6",
+    "name": "弹药处理器",
+    "description": "生命块提供的治疗量减少，但会为你装备的武器返还弹药。",
+    "value": "弹药效率：6；治疗：-40%",
+    "icon": "images/modifier/role/common/common_epic_6.png",
+    "shape": "images/modifier/role/common/common_epic_6_shape.png"
+  },
+  {
+    "id": "common_epic_7",
+    "name": "惯性导体",
+    "description": "冲刺时生命恢复速度加快。",
+    "value": "生命再生：+54%",
+    "icon": "images/modifier/role/common/common_epic_7.png",
+    "shape": "images/modifier/role/common/common_epic_7_shape.png"
+  },
+  {
+    "id": "common_epic_8",
+    "name": "手雷回收",
+    "description": "小型生命块会令你回复手雷充能，但不再提供治疗。",
+    "value": "充能：+2.21",
+    "icon": "images/modifier/role/common/common_epic_8.png",
+    "shape": "images/modifier/role/common/common_epic_8_shape.png"
+  },
+  {
+    "id": "common_epic_9",
+    "name": "智能滑铲",
+    "description": "滑铲持续时间增加。",
+    "value": "持续时间：+3.18",
+    "icon": "images/modifier/role/common/common_epic_9.png",
+    "shape": "images/modifier/role/common/common_epic_9_shape.png"
+  },
+  {
+    "id": "common_epic_10",
+    "name": "核心再利用",
+    "description": "使用近战攻击击杀敌人会为你装备的武器装填部分弹药。",
+    "value": "弹药效率：+5",
+    "icon": "images/modifier/role/common/common_epic_10.png",
+    "shape": "images/modifier/role/common/common_epic_10_shape.png"
+  },
+  {
+    "id": "common_epic_11",
+    "name": "狂躁贪欲",
+    "description": "立即吸收从敌人身上击落的生命块，但以此方式吸收的碎块治疗效果减弱。",
+    "value": "治疗效率：96.0%",
+    "icon": "images/modifier/role/common/common_epic_11.png",
+    "shape": "images/modifier/role/common/common_epic_11_shape.png"
+  },
+  {
+    "id": "common_epic_12",
+    "name": "第三只手",
+    "description": "收起的武器将在一小段时间后自动换弹。",
+    "value": "速度：+31%",
+    "icon": "images/modifier/role/common/common_epic_12.png",
+    "shape": "images/modifier/role/common/common_epic_12_shape.png"
+  },
+  {
+    "id": "common_epic_13",
+    "name": "聚焦棱镜",
+    "description": "当你受元素影响时，你造成的相同元素的伤害提升。",
+    "value": "额外伤害：+20%",
+    "icon": "images/modifier/role/common/common_epic_13.png",
+    "shape": "images/modifier/role/common/common_epic_13_shape.png"
+  },
+  {
+    "id": "common_epic_14",
+    "name": "闪现",
+    "description": "滑铲时向前闪现。",
+    "value": "/",
+    "icon": "images/modifier/role/common/common_epic_14.png",
+    "shape": "images/modifier/role/common/common_epic_14_shape.png"
+  },
+  {
+    "id": "common_rare_1",
+    "name": "元素生命",
+    "description": "当你停止受到指定元素效果伤害时，恢复生命值。",
+    "value": "元素：火焰/强酸/电击；生命值：+2.4",
+    "icon": "images/modifier/role/common/common_rare_1.png",
+    "shape": "images/modifier/role/common/common_rare_1_shape.png"
+  },
+  {
+    "id": "common_rare_2",
+    "name": "助推缓冲",
+    "description": "拾取生命块时获得短暂的速度爆发。",
+    "value": "/",
+    "icon": "images/modifier/role/common/common_rare_2.png",
+    "shape": "images/modifier/role/common/common_rare_2_shape.png"
+  },
+  {
+    "id": "common_rare_3",
+    "name": "强化装甲",
+    "description": "生命值上限增加。",
+    "value": "生命值：+12%",
+    "icon": "images/modifier/role/common/common_rare_3.png",
+    "shape": "images/modifier/role/common/common_rare_3_shape.png"
+  },
+  {
+    "id": "common_rare_4",
+    "name": "强酸亲和",
+    "description": "增加对所有目标施加的强酸。",
+    "value": "元素：+15%",
+    "icon": "images/modifier/role/common/common_rare_4.png",
+    "shape": "images/modifier/role/common/common_rare_4_shape.png"
+  },
+  {
+    "id": "common_rare_5",
+    "name": "抛光底盘",
+    "description": "滑铲速度增加。",
+    "value": "滑铲速度：+29%",
+    "icon": "images/modifier/role/common/common_rare_5.png",
+    "shape": "images/modifier/role/common/common_rare_5_shape.png"
+  },
+  {
+    "id": "common_rare_6",
+    "name": "拳拳到肉",
+    "description": "使用近战攻击击杀敌人会掉落额外的小型生命块。",
+    "value": "块：+3",
+    "icon": "images/modifier/role/common/common_rare_6.png",
+    "shape": "images/modifier/role/common/common_rare_6_shape.png"
+  },
+  {
+    "id": "common_rare_7",
+    "name": "滑铲缓冲",
+    "description": "每有一个与升级项相邻的单元格，滑铲持续时间便会增加。",
+    "value": "每单元持续时间增益：0.13",
+    "icon": "images/modifier/role/common/common_rare_7.png",
+    "shape": "images/modifier/role/common/common_rare_7_shape.png"
+  },
+  {
+    "id": "common_rare_8",
+    "name": "火焰亲和",
+    "description": "增加对所有目标施加的火焰。",
+    "value": "元素：+15%",
+    "icon": "images/modifier/role/common/common_rare_8.png",
+    "shape": "images/modifier/role/common/common_rare_8_shape.png"
+  },
+  {
+    "id": "common_rare_9",
+    "name": "电击亲和",
+    "description": "增加对所有目标施加的电击。",
+    "value": "元素：+15%",
+    "icon": "images/modifier/role/common/common_rare_9.png",
+    "shape": "images/modifier/role/common/common_rare_9_shape.png"
+  },
+  {
+    "id": "common_rare_10",
+    "name": "电涌保护",
+    "description": "触电时移速加快。",
+    "value": "速度：+3",
+    "icon": "images/modifier/role/common/common_rare_10.png",
+    "shape": "images/modifier/role/common/common_rare_10_shape.png"
+  },
+  {
+    "id": "common_rare_11",
+    "name": "维修虹吸",
+    "description": "修复其他玩家时恢复生命值。",
+    "value": "生命值：+20",
+    "icon": "images/modifier/role/common/common_rare_11.png",
+    "shape": "images/modifier/role/common/common_rare_11_shape.png"
+  },
+  {
+    "id": "common_rare_12",
+    "name": "脆弱电池",
+    "description": "承受更多伤害，但拾取生命块时恢复更多生命。",
+    "value": "受到伤害：+15%；已收集生命：+25%",
+    "icon": "images/modifier/role/common/common_rare_12.png",
+    "shape": "images/modifier/role/common/common_rare_12_shape.png"
+  },
+  {
+    "id": "common_standard_1",
+    "name": "强酸抗性",
+    "description": "被酸蚀时承受的强酸伤害降低。",
+    "value": "受到伤害：-30%",
+    "icon": "images/modifier/role/common/common_standard_1.png",
+    "shape": "images/modifier/role/common/common_standard_1_shape.png"
+  },
+  {
+    "id": "common_standard_2",
+    "name": "火焰抗性",
+    "description": "被引燃时承受的火焰伤害降低。",
+    "value": "受到伤害：-30%",
+    "icon": "images/modifier/role/common/common_standard_2.png",
+    "shape": "images/modifier/role/common/common_standard_2_shape.png"
+  },
+  {
+    "id": "common_standard_3",
+    "name": "电击抗性",
+    "description": "被触电时承受的电击伤害降低。",
+    "value": "受到伤害：-30%",
+    "icon": "images/modifier/role/common/common_standard_3.png",
+    "shape": "images/modifier/role/common/common_standard_3_shape.png"
   }
 ]
